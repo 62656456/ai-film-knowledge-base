@@ -1,70 +1,77 @@
 <div align="center">
 
-<img src="docs/assets/hero.svg" width="100%" alt="AI Film Knowledge Base — a public theory and practice library for filmmaking" />
+<img src="docs/assets/hero.svg" width="100%" alt="AI Film Knowledge Base — a public theory, practice, and review library for filmmaking" />
 
 # AI Film Knowledge Base
 
-**Film theory you can understand. Production methods you can take one note at a time.**
+**Read one note directly on GitHub—or follow the complete route from film judgment to production and review.**
 
 [简体中文](docs/i18n/zh-CN/README.md) · [日本語](docs/i18n/ja/README.md) · [한국어](docs/i18n/ko/README.md) · **English**
 
-![Markdown notes](https://img.shields.io/badge/markdown_notes-98-FF6B35?style=flat-square)
-![Public sections](https://img.shields.io/badge/public_sections-overview%20%2B%20theory%20%2B%20practice-46C2CB?style=flat-square)
-![Languages](https://img.shields.io/badge/repository_languages-4-5B8CFF?style=flat-square)
+![Markdown notes](https://img.shields.io/badge/markdown_notes-105-FF6B35?style=flat-square)
+![Public routes](https://img.shields.io/badge/public_routes-theory%20%2B%20practice%20%2B%20review-46C2CB?style=flat-square)
+![Original diagrams](https://img.shields.io/badge/original_diagrams-10-5B8CFF?style=flat-square)
+![Languages](https://img.shields.io/badge/repository_languages-4-8D73FF?style=flat-square)
 [![License](https://img.shields.io/badge/content_license-CC_BY_4.0-D6A756?style=flat-square)](LICENSE)
 [![Validate Knowledge Base](https://github.com/62656456/ai-film-knowledge-base/actions/workflows/validate.yml/badge.svg)](https://github.com/62656456/ai-film-knowledge-base/actions/workflows/validate.yml)
 
 </div>
 
-## Take one note—or follow the whole route
+## Read directly on GitHub
 
-| I need a principle | I need a working method |
-|---|---|
-| Open **A · Theory** for cinematography, directing, screenwriting, visual grammar, structure, character, dialogue, sound, and editing judgment. | Open **B · Practice** for storyboards, prompt engineering, shot output, action direction, and platform-oriented production methods. |
-| [Browse theory](knowledge/A-理论层/) | [Browse practice](knowledge/B-实战层/) |
+No installation, database import, Obsidian vault, or companion Skill is required. Open any Markdown note in the repository and read it in GitHub's normal file view. Each note is written to be useful by itself; the indexes connect the same notes into a larger system.
 
-Every note is a normal Markdown file. You can read one page by itself, download one folder, point an Agent at a specific note, or follow the indexes as one complete film-knowledge system. The knowledge base does not require the companion Skill repository to be useful.
+| A · Theory | B · Practice | C · Review |
+|---|---|---|
+| Understand why a film-language, directing, cinematography, or screenwriting choice works. | Turn judgment into storyboards, prompts, shot output, action direction, and bounded platform workflows. | Freeze the input, review the result, return it to the broken decision, and distinguish technical success from actual acceptance. |
+| **51 notes** · [Browse A on GitHub](knowledge/A-理论层/) | **43 notes** · [Browse B on GitHub](knowledge/B-实战层/) | **7 notes** · [Browse C on GitHub](knowledge/C-审核与验收层/) |
 
-## Start here
+You can also open the [complete catalog](CATALOG.md), start from the [public overview](knowledge/00-总纲/), or search the repository for one concrete question.
 
-| Need | Open |
-|---|---|
-| Public scope, navigation, content rules, and errata | [`knowledge/00-总纲/`](knowledge/00-总纲/) |
-| Cinematography, directing, screenwriting, and film-language theory | [`knowledge/A-理论层/`](knowledge/A-理论层/) |
-| Storyboard, prompt, shot, action, and platform practice | [`knowledge/B-实战层/`](knowledge/B-实战层/) |
-| Every published note | [`CATALOG.md`](CATALOG.md) |
-
-<img src="docs/assets/knowledge-map.svg" width="100%" alt="Choose one note or move from film theory to practical production methods" />
+<img src="docs/assets/knowledge/knowledge-route.svg" width="100%" alt="Choose A Theory, B Practice, or C Review directly on GitHub; every route remains independently usable." />
 
 ## What is public
 
-This edition contains **98 authored Markdown notes**:
+This edition contains **105 authored Markdown notes**:
 
 - 4 public overview and governance notes;
-- 51 theory notes;
-- 43 practice notes.
+- 51 theory notes in A;
+- 43 practice notes in B;
+- 7 newly authored public review and acceptance notes in C.
 
-It intentionally excludes personal information, personal projects, private retrospectives, private validation records, AI infrastructure notes, inspiration archives, raw chats, company material, credentials, and copied third-party courses.
+Public C is a reusable review framework, not a copy of the private AI-infrastructure layer or the private retrospective/validation archive. It explains status, evidence, scope control, directed return, five-gate AI-film review, independent Skill use, and public knowledge/image checks without exposing personal projects or private logs.
 
-The source vault contained 730 local image files whose ownership or redistribution rights were not cleared for public release. They are not shipped. The 730 original embeds within the retained theory notes are replaced by explicit rights-review notices, so the public repository has no silent broken local-image links.
+The `knowledge/` directory remains Markdown-only. Ten explanatory SVGs were created specifically for this public reading edition and live outside the knowledge corpus under `docs/assets/knowledge/`. Their purpose, embed location, authorship basis, and review status are listed in the [visual asset register](docs/VISUAL_ASSETS.md).
+
+## Image publication boundary
+
+The private source vault contained **730 local images**. This release uploads **0 of those source-vault images**:
+
+- **622 conditional candidates** remain private while one explicit, unified redistribution authorization is still missing;
+- **86 files** lack sufficient source or rights evidence;
+- **22 files** are excluded from public use.
+
+“Conditional candidate” does not mean approved. None of the 730 may enter the public repository unless the missing authorization and per-image publication record are completed. The ten public SVGs are new, original teaching diagrams; they are not traced, copied, or transformed from the withheld source-vault images.
 
 ## Built for people and Agents
 
-The source language of the knowledge notes is Simplified Chinese. Repository navigation is available in English, Simplified Chinese, Japanese, and Korean.
+The canonical knowledge notes are in Simplified Chinese; repository entry pages are available in English, Simplified Chinese, Japanese, and Korean.
 
-Because the corpus is Markdown-first, it can be used with Codex, Claude Code, TRAE, CodeBuddy, WorkBuddy, other Agent tools, ordinary editors, or static-site generators. This is content portability, not a claim that every product has an identical knowledge-base importer. Use the exact folder or note your tool can read.
+Because the corpus is ordinary Markdown, it can be read by people, editors, static-site tools, Codex, Claude Code, TRAE, CodeBuddy, WorkBuddy, and other file-reading Agents. This is a portability claim, not a claim that every product has the same native importer. Give an Agent the exact note or folder that matches the task; it does not need the entire repository.
 
-For reusable Agent workflows, see the companion [Open Film Skills](https://github.com/62656456/ai-film-skills) repository. Each Skill works independently; the knowledge base remains a separate public library.
+For executable Agent workflows, see the companion [Open Film Skills](https://github.com/62656456/ai-film-skills). The two repositories are independent: one knowledge note can be read alone, and one Skill can be used alone.
 
-## Evidence and updates
+## Review, evidence, and return
 
-Notes distinguish durable creative mechanisms from time-sensitive platform facts. When a statement depends on a current model, product, price, feature, or policy, verify it against a current primary source before using it as a present-day fact. Corrections belong in the public errata ledger, not in a hidden personal review layer.
+The public review route keeps four facts separate: a file exists, its content passes review, a real output works, and a designated reviewer accepts it. When a result fails, the return record identifies the failed gate, observed evidence, earliest broken decision, protected passing items, and proof required for resubmission. Start with [C · Review](knowledge/C-审核与验收层/) for the complete flow.
+
+Time-sensitive model, product, feature, price, specification, or policy claims must be rechecked against a current primary source. Corrections belong in the public errata ledger, never in a hidden personal review layer.
 
 ## Repository design
 
-The interface uses a film-research notebook language: script paper, slate black, signal orange, cool cyan, and brass. Its central route is intentionally simple—**theory → practice → usable output**—while every branch remains directly accessible.
+The interface uses a film-research notebook language: script paper, slate black, signal orange, cool cyan, and brass. The information architecture makes the three public routes visible immediately while preserving direct access to every individual note.
 
-The information architecture was informed by [OmniRoute](https://github.com/diegosouzapw/OmniRoute): a strong opening thesis, immediate navigation, diagrams, multilingual entry points, visible scope, contribution routes, and explicit security and third-party boundaries. No OmniRoute brand asset, illustration, copy, or code is included.
+The presentation was informed by [OmniRoute](https://github.com/diegosouzapw/OmniRoute): a strong opening thesis, immediate navigation, diagrams, multilingual entry points, visible scope, contribution routes, and explicit security and third-party boundaries. No OmniRoute brand asset, illustration, prose, or code is included.
 
 ## Contributing and contact
 
@@ -76,4 +83,4 @@ Read [CONTRIBUTING.md](CONTRIBUTING.md), [docs/CONTENT_POLICY.md](docs/CONTENT_P
 
 ## License
 
-Personally authored knowledge content is licensed under [Creative Commons Attribution 4.0 International](LICENSE), unless a file states otherwise. The license does not grant rights over linked or cited third-party material.
+Personally authored knowledge text and the ten registered original diagrams are licensed under [Creative Commons Attribution 4.0 International](LICENSE), unless a file states otherwise. The license does not grant rights over linked, cited, or otherwise external material.
