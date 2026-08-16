@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="440" viewBox="0 0 1200 440" role="img" aria-labelledby="title desc">
+  <title id="title">AI Film Knowledge Base</title>
+  <desc id="desc">A public film notebook with modular theory and practice notes.</desc>
+  <rect width="1200" height="440" fill="#F4F0E8"/>
+  <g stroke="#D8D0C2" stroke-width="1"><path d="M0 88H1200M0 176H1200M0 264H1200M0 352H1200"/><path d="M80 0V440M280 0V440M480 0V440M680 0V440M880 0V440M1080 0V440"/></g>
+  <rect x="48" y="38" width="166" height="28" rx="14" fill="#0B0F14"/>
+  <text x="131" y="57" text-anchor="middle" fill="#F4F0E8" font-family="Arial, Noto Sans, sans-serif" font-size="12" font-weight="700" letter-spacing="1.2">OPEN KNOWLEDGE</text>
+  <text x="48" y="128" fill="#0B0F14" font-family="Arial, Noto Sans, sans-serif" font-size="52" font-weight="800" letter-spacing="-1.2">AI FILM KNOWLEDGE BASE</text>
+  <text x="50" y="168" fill="#4D5964" font-family="Arial, Noto Sans, sans-serif" font-size="19">Take one note. Or follow theory into practice.</text>
+  <text x="50" y="199" fill="#75808A" font-family="Arial, Noto Sans, sans-serif" font-size="15">公开总纲 · 影视理论 · 创作实战</text>
+  <g transform="translate(52 268)" font-family="Arial, Noto Sans, sans-serif">
+    <rect width="264" height="90" rx="6" fill="#0B0F14"/><text x="22" y="35" fill="#FF6B35" font-size="13" font-weight="700">98</text><text x="22" y="62" fill="#F4F0E8" font-size="17">public Markdown notes</text>
+    <rect x="282" width="264" height="90" rx="6" fill="#E6DED0" stroke="#C8BEAE"/><text x="304" y="35" fill="#157A83" font-size="13" font-weight="700">51</text><text x="304" y="62" fill="#0B0F14" font-size="17">theory notes</text>
+    <rect x="564" width="264" height="90" rx="6" fill="#E6DED0" stroke="#C8BEAE"/><text x="586" y="35" fill="#A56C16" font-size="13" font-weight="700">43</text><text x="586" y="62" fill="#0B0F14" font-size="17">practice notes</text>
+    <rect x="846" width="250" height="90" rx="6" fill="#FF6B35"/><text x="868" y="35" fill="#0B0F14" font-size="13" font-weight="700">ONE / ALL</text><text x="868" y="62" fill="#0B0F14" font-size="17">modular by design</text>
+  </g>
+  <text x="1148" y="52" text-anchor="end" fill="#7E867F" font-family="Consolas, monospace" font-size="12">MARKDOWN-FIRST / PUBLIC-SCOPE ONLY</text>
+  <path d="M48 402H1152" stroke="#0B0F14" stroke-width="2"/>
+</svg>

@@ -1,0 +1,15 @@
+.DS_Store
+Thumbs.db
+Desktop.ini
+.obsidian/
+.obsidian-mcp/
+.codex-temp/
+_待审核/
+__pycache__/
+*.pyc
+.venv/
+_scratch/
+_temp/
+.env
+.env.*
+*.log

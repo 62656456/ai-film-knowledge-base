@@ -1,0 +1,37 @@
+name: Knowledge proposal
+description: Propose a new note, translation, or bounded extension.
+title: "[Knowledge]: "
+labels: [enhancement]
+body:
+  - type: input
+    id: topic
+    attributes:
+      label: Topic and destination layer
+      placeholder: B-实战层 / prompt continuity checks
+    validations:
+      required: true
+  - type: dropdown
+    id: class
+    attributes:
+      label: Evidence class
+      options:
+        - Verified fact
+        - Source-backed interpretation
+        - Practical experience
+        - Candidate method
+        - Inspiration
+    validations:
+      required: true
+  - type: textarea
+    id: value
+    attributes:
+      label: Reusable value
+      description: Explain the decision or action this note should improve.
+    validations:
+      required: true
+  - type: textarea
+    id: sources
+    attributes:
+      label: Sources or reproducible evidence
+    validations:
+      required: true

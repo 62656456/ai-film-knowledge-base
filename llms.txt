@@ -1,0 +1,23 @@
+# AI Film Knowledge Base
+
+Repository: https://github.com/62656456/ai-film-knowledge-base
+
+Canonical source language: Simplified Chinese.
+
+Public corpus: 98 Markdown notes.
+
+Start with:
+- README.md
+- CATALOG.md
+- knowledge/00-总纲/
+- knowledge/A-理论层/
+- knowledge/B-实战层/
+
+Routing:
+- Use A for cinematography, directing, screenwriting, and durable film-language theory.
+- Use B for storyboard, prompt, shot, action, and platform practice.
+- A single note may be used independently; do not require the complete corpus.
+
+Evidence rule: keep stable mechanisms, source-backed interpretations, practical methods, candidate methods, and time-sensitive facts distinct. Recheck changing platform facts against current primary sources. Do not infer unavailable linked content.
+
+Public boundary: do not infer or request excluded personal projects, private retrospectives, AI infrastructure, validation records, inspiration archives, or local image files.

@@ -1,0 +1,38 @@
+name: Content correction
+description: Report a factual, sourcing, rights, privacy, or classification problem.
+title: "[Correction]: "
+labels: [documentation]
+body:
+  - type: input
+    id: note
+    attributes:
+      label: Note path
+      placeholder: knowledge/A-理论层/...
+    validations:
+      required: true
+  - type: textarea
+    id: issue
+    attributes:
+      label: What is wrong?
+      description: Do not paste private information or credentials.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence
+      description: Prefer primary or authoritative sources and include the verification date.
+    validations:
+      required: true
+  - type: dropdown
+    id: severity
+    attributes:
+      label: Impact
+      options:
+        - Rights or privacy risk
+        - Factual error
+        - Outdated information
+        - Broken navigation
+        - Classification or clarity
+    validations:
+      required: true

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
+  <title id="title">Modular AI film knowledge route</title>
+  <desc id="desc">Readers can take any single note or move from theory through practice to a usable output.</desc>
+  <rect width="1200" height="300" fill="#0B0F14"/>
+  <g font-family="Arial, Noto Sans, sans-serif">
+    <text x="52" y="48" fill="#F4F0E8" font-size="20" font-weight="700">ONE NOTE WORKS. THE WHOLE ROUTE WORKS BETTER.</text>
+    <text x="1148" y="48" text-anchor="end" fill="#687687" font-size="12">THEORY → PRACTICE → OUTPUT</text>
+    <path d="M188 155H1012" stroke="#384654" stroke-width="4"/>
+    <path d="M418 155l-18-11v22zM760 155l-18-11v22z" fill="#F4F0E8"/>
+    <g transform="translate(170 155)"><circle r="48" fill="#FF6B35"/><text y="-4" text-anchor="middle" fill="#0B0F14" font-size="14" font-weight="700">A · THEORY</text><text y="17" text-anchor="middle" fill="#0B0F14" font-size="11">why it works</text></g>
+    <g transform="translate(600 155)"><circle r="48" fill="#46C2CB"/><text y="-4" text-anchor="middle" fill="#0B0F14" font-size="14" font-weight="700">B · PRACTICE</text><text y="17" text-anchor="middle" fill="#0B0F14" font-size="11">how to do it</text></g>
+    <g transform="translate(1030 155)"><circle r="48" fill="#D6A756"/><text y="-4" text-anchor="middle" fill="#0B0F14" font-size="14" font-weight="700">OUTPUT</text><text y="17" text-anchor="middle" fill="#0B0F14" font-size="11">script · shot · prompt</text></g>
+    <g transform="translate(600 252)"><rect x="-180" y="-19" width="360" height="38" rx="19" fill="#18222D" stroke="#FF6B35"/><text y="5" text-anchor="middle" fill="#F4F0E8" font-size="12" font-weight="700">OPEN ANY BRANCH DIRECTLY — NO FULL INSTALL REQUIRED</text></g>
+  </g>
+</svg>
