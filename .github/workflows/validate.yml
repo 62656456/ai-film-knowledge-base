@@ -15,5 +15,7 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - name: Validate repository
+      - name: Validate GitHub-reading corpus, links, privacy, and visual assets
         run: python scripts/validate_repository.py
+      - name: Verify deterministic catalog is committed
+        run: git diff --exit-code -- CATALOG.md

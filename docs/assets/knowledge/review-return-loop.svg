@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 500" role="img" aria-labelledby="title desc">
+  <title id="title">失败定位与定向退回</title><desc id="desc">工作依次经过输入冻结、设计、可判断草稿、审核和通过。审核失败沿红线返回最早断裂的设计或输入，而不是无目的重试。</desc>
+  <defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0L10 5L0 10z" fill="#37a6b5"/></marker><marker id="r" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0L10 5L0 10z" fill="#d94b3d"/></marker></defs>
+  <style>.bg{fill:#11181c}.card{fill:#f6f0e5;stroke:#b9aa91;stroke-width:2}.review{fill:#1c272d;stroke:#4a626c;stroke-width:2}.h{font:700 22px Arial,"Microsoft YaHei",sans-serif;fill:#182025}.hr{font:700 22px Arial,"Microsoft YaHei",sans-serif;fill:#f6f0e5}.p{font:500 15px Arial,"Microsoft YaHei",sans-serif;fill:#526169}.pr{font:500 15px Arial,"Microsoft YaHei",sans-serif;fill:#c8d2d6}.red{font:700 18px Arial,"Microsoft YaHei",sans-serif;fill:#f07e72}</style>
+  <rect class="bg" width="1200" height="500" rx="24"/><path d="M80 220H1120" stroke="#37a6b5" stroke-width="5" marker-end="url(#a)"/>
+  <g transform="translate(45 130)"><rect class="card" width="190" height="150" rx="8"/><text x="95" y="60" text-anchor="middle" class="h">输入冻结</text><text x="95" y="92" text-anchor="middle" class="p">事实 · 权限 · 禁止项</text></g>
+  <g transform="translate(275 130)"><rect class="card" width="190" height="150" rx="8"/><text x="95" y="60" text-anchor="middle" class="h">因果设计</text><text x="95" y="92" text-anchor="middle" class="p">先解决上游决定</text></g>
+  <g transform="translate(505 130)"><rect class="card" width="190" height="150" rx="8"/><text x="95" y="60" text-anchor="middle" class="h">可判断草稿</text><text x="95" y="92" text-anchor="middle" class="p">看得见才能审核</text></g>
+  <g transform="translate(735 130)"><rect class="review" width="190" height="150" rx="8"/><text x="95" y="60" text-anchor="middle" class="hr">审核门</text><text x="95" y="92" text-anchor="middle" class="pr">指出证据与断裂点</text></g>
+  <g transform="translate(965 130)"><rect class="card" width="190" height="150" rx="8"/><text x="95" y="60" text-anchor="middle" class="h">通过 + 证据</text><text x="95" y="92" text-anchor="middle" class="p">只声明真实状态</text></g>
+  <path d="M830 300V385H370V300" fill="none" stroke="#d94b3d" stroke-width="5" stroke-dasharray="11 8" marker-end="url(#r)"/><text x="600" y="430" text-anchor="middle" class="red">FAIL：退回最早断裂点｜保留已经批准的约束</text>
+</svg>

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 520" role="img" aria-labelledby="title desc">
+  <title id="title">知识与图片公开过闸</title><desc id="desc">公开前依次检查作者或许可、隐私与项目边界、知识用途与替代文字、资产清单与链接。任何一项不明都不发布。</desc>
+  <defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0L10 5L0 10z" fill="#37a6b5"/></marker></defs>
+  <style>.bg{fill:#11181c}.card{fill:#f6f0e5;stroke:#b9aa91;stroke-width:2}.h{font:700 22px Arial,"Microsoft YaHei",sans-serif;fill:#182025}.p{font:500 15px Arial,"Microsoft YaHei",sans-serif;fill:#526169}.pass{fill:#37a66a}.stop{fill:#d94b3d}.white{font:700 19px Arial,"Microsoft YaHei",sans-serif;fill:#fff}</style>
+  <rect class="bg" width="1200" height="520" rx="24"/><path d="M100 245H1080" stroke="#37a6b5" stroke-width="5" marker-end="url(#a)"/>
+  <g transform="translate(55 145)"><rect class="card" width="215" height="190" rx="10"/><text x="107" y="65" text-anchor="middle" class="h">作者与权利</text><text x="107" y="100" text-anchor="middle" class="p">原创 / 开放许可 / 授权</text><text x="107" y="130" text-anchor="middle" class="p">找不到来源 = 不发布</text></g>
+  <g transform="translate(300 145)"><rect class="card" width="215" height="190" rx="10"/><text x="107" y="65" text-anchor="middle" class="h">隐私与边界</text><text x="107" y="100" text-anchor="middle" class="p">个人 · 项目 · 账号 · 路径</text><text x="107" y="130" text-anchor="middle" class="p">私人证据默认排除</text></g>
+  <g transform="translate(545 145)"><rect class="card" width="215" height="190" rx="10"/><text x="107" y="65" text-anchor="middle" class="h">知识用途</text><text x="107" y="100" text-anchor="middle" class="p">解释哪一个具体知识点</text><text x="107" y="130" text-anchor="middle" class="p">装饰图不进正文</text></g>
+  <g transform="translate(790 145)"><rect class="card" width="215" height="190" rx="10"/><text x="107" y="65" text-anchor="middle" class="h">清单与可读</text><text x="107" y="100" text-anchor="middle" class="p">路径 · 说明 · alt · 许可</text><text x="107" y="130" text-anchor="middle" class="p">GitHub 实际显示</text></g>
+  <g transform="translate(1035 180)"><rect class="pass" width="120" height="120" rx="60"/><text x="60" y="56" text-anchor="middle" class="white">PASS</text><text x="60" y="82" text-anchor="middle" class="white" style="font-size:15px">允许公开</text></g>
+  <rect class="stop" x="420" y="400" width="360" height="58" rx="8"/><text x="600" y="437" text-anchor="middle" class="white">UNKNOWN / PRIVATE / UNLICENSED → STOP</text>
+</svg>

@@ -17,7 +17,7 @@
 - **文件名**：`01_production_appearances.png`
 - **四栏标签（左→右）**：数字 2D 赛璐璐式平涂｜摄影写实／写实三维外观｜3D Cel Shading｜黏土定格材料感
 - **建议嵌入章节**：媒介与制作外观入口；适合作为图鉴开场。
-- **正文嵌入**：`[Image omitted from the public edition pending source and reuse-rights verification.]`
+- **公开版图像状态**：源图未进入公开仓库，正文不保留逐图占位。
 - **可观察差异**：第一栏靠清晰线稿、平涂色块和硬边两级阴影成立；第二栏靠湿混凝土、布料粗糙度、金属反射和自然接触阴影形成摄影写实感；第三栏保留三维几何，但将光照压缩成有限色阶并加轮廓；第四栏出现指纹、手工塑形、微缩景深与实体接触感。
 - **判定边界**：第二栏可以安全标注为“摄影写实／写实三维外观候选”。单张生成图无法证明其真实使用了 PBR 材质节点、能量守恒或具体三维渲染管线；主卡若使用“PBR”一词，图注应写“呈现 PBR 式材质与光照外观”，不要把视觉结果冒充工艺证据。
 - **QA**：通过。四栏、人物、站姿、自行车、包裹、机位和天气基本稳定；无可读文字、Logo、IP、明显肢体问题或栏位串扰。未修正。
@@ -46,7 +46,7 @@ Constraints: exactly four panels; no written words, no letters, no numbers, no c
 - **文件名**：`02_2d_image_families.png`
 - **四栏标签（左→右）**：数字赛璐璐式平涂｜水彩逐帧绘画感｜中国水墨动画语言｜几何矢量与剪纸拼贴
 - **建议嵌入章节**：二维画面家族／手绘与平面动画。
-- **正文嵌入**：`[Image omitted from the public edition pending source and reuse-rights verification.]`
+- **公开版图像状态**：源图未进入公开仓库，正文不保留逐图占位。
 - **可观察差异**：同一青年、桥栏、列车和黄昏视点不变；四栏分别依靠硬边色块、透明水彩湿边、墨线／留白／墨色密度、几何纸片与层叠纸影构成画面。
 - **QA**：通过。角色身份、站姿和城市构图稳定；水墨不是简单黑白滤镜，剪纸栏有真实纸层；无文字伪影、明显手部畸形或风格串扰。未修正。
 
@@ -74,7 +74,7 @@ Constraints: exactly four panels; entirely original generic scene; no text, no l
 - **文件名**：`03_3d_rendering_families.png`
 - **四栏标签（左→右）**：摄影写实 PBR 式外观｜圆润风格化 3D｜Cel Shaded 3D｜Low-poly 3D
 - **建议嵌入章节**：三维渲染家族。
-- **正文嵌入**：`[Image omitted from the public edition pending source and reuse-rights verification.]`
+- **公开版图像状态**：源图未进入公开仓库，正文不保留逐图占位。
 - **可观察差异**：写实栏用皮肤、织物、木纹、玻璃与砖面的连续材质响应；圆润栏简化比例和形体；Cel 栏有轮廓线、硬色阶与图形高光；Low-poly 栏在人物、树木和建筑上均保留清晰面片。
 - **QA**：通过。人物、吉他、琴盒和街角视点稳定，四种三维体块与表面差异清楚；持握关系可读，无文字、Logo 或明显肢体错误。未修正。
 
@@ -102,7 +102,7 @@ Constraints: exactly four panels; no text, no letters, no numbers, no captions, 
 - **文件名**：`04_physical_mixed_media.png`
 - **四栏标签（左→右）**：木偶定格｜黏土定格｜纸片剪纸定格｜真人材质＋绘画纸张＋摄影碎片混合拼贴
 - **建议嵌入章节**：实体材料与混合媒介。
-- **正文嵌入**：`[Image omitted from the public edition pending source and reuse-rights verification.]`
+- **公开版图像状态**：源图未进入公开仓库，正文不保留逐图占位。
 - **可观察差异**：木偶栏有可见关节、雕刻头手和真实针织服装；黏土栏有指纹、塑形和替换面痕迹；纸片栏是平面关节与纸层阴影；混合栏将真人皮肤和织物、绘画墙面、撕贴窗景与摄影物件并置。
 - **QA**：通过。四栏动作、苹果、木碗和房间关系清楚；材料来源可辨，无文字、Logo、明显手部错误或构图失控。未修正。
 
@@ -130,7 +130,7 @@ Constraints: exactly four panels; no text, no letters, no numbers, no captions, 
 - **文件名**：`05_future_world_genres.png`
 - **四栏标签（左→右）**：Cyberpunk｜Solarpunk｜Steampunk｜Dieselpunk
 - **建议嵌入章节**：未来世界／Punk 家族图鉴。
-- **正文嵌入**：`[Image omitted from the public edition pending source and reuse-rights verification.]`
+- **公开版图像状态**：源图未进入公开仓库，正文不保留逐图占位。
 - **可观察差异**：四栏不是调色变化。赛博朋克栏显示封闭企业塔、监控、改造线缆和拥挤维修层；Solarpunk 栏显示太阳能、雨水系统、花园、公共交通与共同维护；Steampunk 栏显示蒸汽管网、锅炉、铆接铁件和机械维修；Dieselpunk 栏显示装饰艺术体量、柴油交通、工业烟气与中世纪机器文化。
 - **QA**：通过。同一街口、推车配送员和机位稳定；四套技术制度、材料与生活方式清楚，背景人物均在维修、通行或劳动；无可读文字、Logo、IP 或明显结构错误。未修正。
 
@@ -158,7 +158,7 @@ Constraints: exactly four panels; no text, no letters, no numbers, no captions, 
 - **文件名**：`06_popular_style_decoding.png`
 - **四栏标签（左→右）**：澄澈高细节都市天空与天气光的青春 2D｜温暖有生活痕迹的手绘自然幻想 2D｜正面居中、粉彩、平面调度的故事书真人美术｜细长轮廓、扭曲建筑、黑白＋单一强调色的哥特童话定格感
 - **建议嵌入章节**：大众口语风格称呼如何转译为通用画面机制。
-- **正文嵌入**：`[Image omitted from the public edition pending source and reuse-rights verification.]`
+- **公开版图像状态**：源图未进入公开仓库，正文不保留逐图占位。
 - **可观察差异**：第一栏以大尺度高细节天空、云缘光和湿地反射建立青春天气感；第二栏靠旧木、藤蔓、补丁、生活器物与手绘线条建立自然幻想；第三栏靠正面居中、严格对称、粉彩块面与浅舞台空间形成真人故事书美术；第四栏靠细长木偶轮廓、扭曲站台、硬斜光和黑白中的红鞋单色强调成立。
 - **QA**：修正后通过。首轮第四栏旅行包残留绿色，破坏“单一强调色”；唯一一次修正将第四栏除红鞋外全部转为灰阶，前三栏、站位和构图保持稳定。无文字、Logo、IP 或明显肢体问题。
 
@@ -194,7 +194,7 @@ No text, letters, numbers, logos, signs, watermarks or UI.
 - **文件名**：`07_complete_combinations_a.png`
 - **四栏标签（左→右）**：3D Cel Shading＋Cyberpunk＋Neo-noir＋Art Deco／Brutalism｜2D 水彩＋Solarpunk＋青春爱情＋高调天气光｜真人写实＋硬科幻＋Brutalism＋纪录观察｜木偶定格＋Gothic Romance＋德国表现主义影响＋低调光
 - **建议嵌入章节**：跨层完整组合示范 A。
-- **正文嵌入**：`[Image omitted from the public edition pending source and reuse-rights verification.]`
+- **公开版图像状态**：源图未进入公开仓库，正文不保留逐图占位。
 - **可观察差异**：四栏保持“两人在建筑入口交换重要小物件”的基本动作。第一栏用三维 Cel 体块、企业门槛、低调功能光和装饰艺术／粗野主义入口建立技术权力；第二栏用水彩、共治能源设施、雨后高调光和羞涩身体关系建立青春爱情；第三栏用月面气闸、磨损、尘控和观察机位建立硬科幻；第四栏用实体木偶、扭曲门洞、斜影和腐朽材质建立哥特关系。
 - **QA**：修正后通过。首轮第一栏的赛博朋克与 Neo-noir 成立，但 Cel Shading 不够明显；唯一一次修正增强第一栏轮廓线、硬边两三级阴影和图形高光，保留后三栏与原有构图。无文字、Logo、IP 或明显手部错误。
 
@@ -229,7 +229,7 @@ No text, letters, numbers, logos, signs, watermarks or UI.
 - **文件名**：`08_complete_combinations_b.png`
 - **四栏标签（左→右）**：3D 水墨 NPR＋武侠＋长镜空间感｜2D Pixel Art＋后末日生存＋有限色板｜真人摄影＋2D 拼贴＋超现实散文电影｜Low-poly 3D＋Cozy Fantasy＋Pastel＋柔和环境光
 - **建议嵌入章节**：跨层完整组合示范 B。
-- **正文嵌入**：`[Image omitted from the public edition pending source and reuse-rights verification.]`
+- **公开版图像状态**：源图未进入公开仓库，正文不保留逐图占位。
 - **可观察差异**：四栏保持“旅人提灯沿路径走向庇护所”的基本关系。水墨栏用三维连续山路、亭子、墨线、干笔和留白承载武侠空间；Pixel 栏用统一像素尺度、有限色板、废弃设施和资源物件建立生存；真人拼贴栏以摄影道路为现实层，叠加撕纸天空、照片碎片和非现实物件联想；Low-poly 栏用清晰面片、柔和粉彩、菜园、柴堆、面包与暖窗建立低威胁照料感。
 - **QA**：通过。四栏媒介和完整组合边界清晰；灯笼持握与路径关系可读；无可读文字、Logo、IP、栏位串扰或明显人体错误。未修正。
 

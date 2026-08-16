@@ -2,9 +2,11 @@
 
 Repository: https://github.com/62656456/ai-film-knowledge-base
 
-Canonical source language: Simplified Chinese.
+Canonical knowledge language: Simplified Chinese.
 
-Public corpus: 98 Markdown notes.
+Public corpus: 105 Markdown notes.
+
+Read directly on GitHub; no private vault, database import, or companion Skill is required.
 
 Start with:
 - README.md
@@ -12,12 +14,19 @@ Start with:
 - knowledge/00-总纲/
 - knowledge/A-理论层/
 - knowledge/B-实战层/
+- knowledge/C-审核与验收层/
+- docs/VISUAL_ASSETS.md
 
 Routing:
-- Use A for cinematography, directing, screenwriting, and durable film-language theory.
-- Use B for storyboard, prompt, shot, action, and platform practice.
-- A single note may be used independently; do not require the complete corpus.
+- Use A (51 notes) for cinematography, directing, screenwriting, and durable film-language theory.
+- Use B (43 notes) for storyboard, prompt, shot, action, and bounded platform practice.
+- Use C (7 notes) for status, evidence, input freezing, directed return, AI-film acceptance, independent Skill review, and public knowledge/image gates.
+- Use one note independently when it answers the task; do not require the complete corpus.
 
-Evidence rule: keep stable mechanisms, source-backed interpretations, practical methods, candidate methods, and time-sensitive facts distinct. Recheck changing platform facts against current primary sources. Do not infer unavailable linked content.
+Review rule: file existence, content review, real-output evidence, and designated-reviewer acceptance are different states. A failure should return to the earliest broken decision with the failed gate, observed evidence, protected passing items, required correction, and resubmission proof.
 
-Public boundary: do not infer or request excluded personal projects, private retrospectives, AI infrastructure, validation records, inspiration archives, or local image files.
+Evidence rule: keep stable mechanisms, source-backed interpretations, practical methods, candidate methods, time-sensitive facts, and unknowns distinct. Recheck changing platform facts against current primary sources. Do not infer unavailable linked content.
+
+Image rule: `knowledge/` is Markdown-only. The ten current public teaching diagrams are original SVGs under `docs/assets/knowledge/` and are registered in `docs/VISUAL_ASSETS.md`. Do not infer access to the 730 private source-vault images: 0 are uploaded, 622 remain private conditional candidates pending explicit unified authorization, 86 lack sufficient evidence, and 22 are excluded.
+
+Public boundary: do not infer, request, or reconstruct personal projects, private retrospectives, private AI infrastructure, private validation evidence, inspiration archives, raw chats, session identifiers, local paths, or source-vault image files.

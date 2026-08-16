@@ -18,6 +18,10 @@ def title_for(path: Path) -> str:
     return match.group(1).strip() if match else path.stem.replace("_", " ")
 
 
+def markdown_destination(value: str) -> str:
+    return f"<{value}>" if any(character.isspace() for character in value) else value
+
+
 def main() -> None:
     files = sorted(KNOWLEDGE.rglob("*.md"), key=lambda p: p.as_posix().casefold())
     groups: dict[str, list[Path]] = {}
@@ -36,7 +40,7 @@ def main() -> None:
         lines.extend([f"## {section}", ""])
         for path in groups[section]:
             rel = path.relative_to(ROOT).as_posix()
-            lines.append(f"- [{title_for(path)}]({rel})")
+            lines.append(f"- [{title_for(path)}]({markdown_destination(rel)})")
         lines.append("")
     OUTPUT.write_text("\n".join(lines), encoding="utf-8", newline="\n")
 

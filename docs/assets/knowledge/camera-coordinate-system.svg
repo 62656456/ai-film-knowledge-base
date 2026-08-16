@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600" role="img" aria-labelledby="title desc">
+  <title id="title">摄影机四坐标</title><desc id="desc">摄影机角度由高度、俯仰、横滚和方位四个独立坐标组成。中心人物周围显示正面、侧面和背面方位，左侧显示高低，右侧显示俯仰与横滚。</desc>
+  <style>.bg{fill:#11181c}.paper{fill:#f6f0e5;stroke:#b9aa91;stroke-width:2}.axis{stroke:#37a6b5;stroke-width:4}.dash{stroke:#f0643b;stroke-width:3;stroke-dasharray:9 7}.h{font:700 22px Arial,"Microsoft YaHei",sans-serif;fill:#182025}.p{font:500 16px Arial,"Microsoft YaHei",sans-serif;fill:#526169}.light{font:700 17px Arial,"Microsoft YaHei",sans-serif;fill:#f6f0e5}</style>
+  <rect class="bg" width="1200" height="600" rx="24"/>
+  <rect class="paper" x="390" y="105" width="420" height="390" rx="14"/><circle cx="600" cy="300" r="46" fill="#182025"/><rect x="558" y="350" width="84" height="95" rx="22" fill="#182025"/>
+  <circle cx="600" cy="300" r="145" fill="none" class="axis"/><path d="M600 130V470M430 300H770" class="axis"/><text x="600" y="155" text-anchor="middle" class="h">正面 0°</text><text x="765" y="292" text-anchor="end" class="h">侧面 90°</text><text x="600" y="482" text-anchor="middle" class="h">背面 180°</text><text x="438" y="292" class="h">侧面 270°</text>
+  <rect class="paper" x="45" y="105" width="285" height="390" rx="14"/><text x="187" y="155" text-anchor="middle" class="h">高度 HEIGHT</text><path d="M187 190V430" class="axis"/><circle cx="187" cy="215" r="14" fill="#f0643b"/><circle cx="187" cy="300" r="14" fill="#37a6b5"/><circle cx="187" cy="410" r="14" fill="#182025"/><text x="215" y="220" class="p">高位 / 顶位</text><text x="215" y="305" class="p">眼平 / 胸高</text><text x="215" y="415" class="p">腰高 / 贴地</text>
+  <rect class="paper" x="870" y="105" width="285" height="390" rx="14"/><text x="1012" y="155" text-anchor="middle" class="h">俯仰 + 横滚</text><path d="M925 250L1085 195" class="axis"/><text x="925" y="280" class="p">PITCH：仰 / 平 / 俯</text><path d="M930 375L1085 330" class="dash"/><text x="930" y="410" class="p">ROLL：水平 / 倾斜</text>
+  <text x="600" y="555" text-anchor="middle" class="light">机位不是一个词：HEIGHT × PITCH × ROLL × AZIMUTH</text>
+</svg>
