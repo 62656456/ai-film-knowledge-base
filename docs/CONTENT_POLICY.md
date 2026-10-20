@@ -41,18 +41,11 @@ Replacing a project name or deleting a person's name is not sufficient anonymiza
 
 ## Image publication gate
 
-The private source vault contained 730 local images. This public edition uploads none of them: 622 remain private conditional candidates pending one explicit, unified redistribution authorization; 86 lack sufficient provenance or rights evidence; and 22 are excluded. A conditional candidate is not approved.
+The existing public-note image set was expressly authorized for publication on 2026-10-20: 696 original teaching images with 730 placements, plus the existing ten public-method SVGs. The old blanket hold is superseded. Publishing an illustration does not mark it aesthetically accepted or validate a depicted method.
 
-The only knowledge illustrations accepted in the current public edition are the ten original SVGs under `docs/assets/knowledge/`. Every accepted illustration must:
+Every added image must have a stable repository file, a record in `IMAGE_MANIFEST.json` or `VISUAL_ASSETS.md`, meaningful alternative text, a knowledge use, a source/creation basis, a license or explicit permission, modification history, and public reading locations. Preserve original bytes when no edit was requested. Private account, project and personal data remain excluded.
 
-1. be created for this repository rather than copied, traced, or transformed from a withheld source-vault image;
-2. be listed in `docs/VISUAL_ASSETS.md` with purpose, embed location, author/rights basis, and review status;
-3. be referenced by at least one public Markdown page;
-4. use the registered, precise alternative text;
-5. contain no script, remote resource, embedded raster payload, private metadata, local path, account state, or third-party artwork;
-6. remain outside `knowledge/`, which stays Markdown-only.
-
-Any future image requires author or source, license or explicit permission, attribution, modification history, knowledge purpose, embed location, and privacy review before it may be added.
+Images stay outside `knowledge/`, and knowledge pages use ordinary relative embeds. Verify file existence, hashes, references and safe SVG content. Do not reintroduce a blanket no-image rule or an original-SVG-only rule. Real film frames and external reference photographs must retain their actual source and rights attribution; a generated illustration must not be labeled as an actual film frame.
 
 ## Review, return, and status
 

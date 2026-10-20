@@ -1,17 +1,15 @@
 # Third-party notices
 
-## Withheld source-vault images
+## Published teaching illustrations
 
-This repository includes **0 of the 730 local images** from the private source vault. Of that private set, 622 remain conditional candidates pending one explicit, unified redistribution authorization, 86 lack sufficient provenance or rights evidence, and 22 are excluded. Conditional status is not permission, and none of these files is covered by the public repository license.
+This edition publishes 696 source teaching images with the repository maintainer’s explicit authorization of 2026-10-20, plus 10 original public-method SVGs. The [visual register](docs/VISUAL_ASSETS.md) and [per-image manifest](docs/IMAGE_MANIFEST.json) identify the public files and their knowledge uses.
 
-## Original public diagrams
-
-The ten SVGs under `docs/assets/knowledge/` were created specifically for this public repository as explanatory diagrams. They do not copy, trace, or transform a film still, private-project asset, local screenshot, third-party illustration, or withheld source-vault image. Their purpose, embed location, author/rights basis, and review status are recorded in [docs/VISUAL_ASSETS.md](docs/VISUAL_ASSETS.md).
+Images illustrating director/cinematographer mechanisms and film-language techniques are original teaching constructions, including AI-assisted images. They are not frames taken from the named films, portraits of the named creators, official endorsements, or evidence of those films’ actual production settings. Original registered text and illustrations use CC BY 4.0.
 
 ## Linked and cited material
 
-The scraped Super-I course archive, third-party Skill packages, paid materials, full third-party courses, and unlicensed reference images are not included. Notes may cite or link to third-party sources for attribution and study. A citation does not transfer ownership, and linked material remains governed by its original terms.
+Film titles, creator names, short attributed references, interviews and links remain attributable to their original owners. The repository license does not license external films, photographs, books, courses, brands or linked assets. Full copied courses, third-party Skill packages and paid materials are not part of this publication.
 
-## Presentation reference
+## Presentation research
 
-The repository presentation was informed by the public information architecture of [OmniRoute](https://github.com/diegosouzapw/OmniRoute). No OmniRoute branding, artwork, README prose, code, or private data is copied.
+The README uses native GitHub Markdown, linked images and short explanations. The image-first reading sequence was studied against [ComfyUI’s README](https://github.com/Comfy-Org/ComfyUI/blob/b1a247c9cf9dbfda4b2c0a0c1d50950667eeaa0c/README.md), whose project is GPL-3.0. No ComfyUI source code, prose, brand or image is included. The earlier edition also studied [OmniRoute](https://github.com/diegosouzapw/OmniRoute); no assets or code were copied from it.

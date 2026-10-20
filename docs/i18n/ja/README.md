@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="../../assets/hero.svg" width="100%" alt="AI Film Knowledge Base — GitHubで直接読める映画理論・制作・レビューの知識ベース" />
+<img src="../../assets/examples/photorealistic/style-mechanisms/04-villeneuve.jpg" width="100%" alt="Original teaching illustration: a small figure in monumental architecture" />
 
 # AI Film Knowledge Base
 
@@ -27,17 +27,13 @@
 
 公共Cは、非公開のAIインフラ層や個人の振り返り・検証記録のコピーではありません。状態、証拠、範囲固定、原因に応じた差し戻し、AI映像の五段階審査、Skillの独立利用、知識と画像の公開判定だけを一般化しています。
 
-`knowledge/` はMarkdownのみです。この公開読書版のために新規制作したオリジナルSVG **10点**は `docs/assets/knowledge/` に置き、[Visual asset register](../../VISUAL_ASSETS.md) に目的、掲載先、権利根拠、審査状態を記録しています。
+[696 source images and 10 public method diagrams](../../VISUAL_ASSETS.md).
 
-## 元画像730点の境界
+## 画像の公開
 
-非公開ソース保管庫のローカル画像730点から、今回公開したものは **0点**です。
+既存ノートの **696点の原画像**を公開し、**730か所**の本文内表示を復元しました。元の10点の説明SVGも残っています。旧版の候補・公開待ちという扱いは今回の公開で置き換えられました。図は映画の実フレームではなく、構図・演出・光・色を学ぶためのオリジナル教材です。
 
-- 622点は、一括した明示的な再配布許可が得られるまで非公開の条件付き候補です。
-- 86点は、出典または権利の証拠が不足しています。
-- 22点は公開対象外です。
-
-「条件付き候補」は許可済みという意味ではありません。公開SVG10点は新規の説明図であり、保留中の元画像を複製・トレース・加工したものではありません。
+[Image gallery](../../IMAGE_GALLERY.md) · [Image manifest](../../IMAGE_MANIFEST.json)
 
 ## Agent、言語、フィードバック
 
@@ -49,4 +45,32 @@
 
 表示構造は [OmniRoute](https://github.com/diegosouzapw/OmniRoute) を参考にしていますが、ブランド、画像、文章、コードは複製していません。
 
-ライセンス: オリジナルの知識本文と登録済みSVG 10点は [CC BY 4.0](../../../LICENSE) です。外部リンク、引用、第三者素材の権利は含みません。
+ライセンス: オリジナルの知識本文と登録済みの教材画像696点とSVG 10点は [CC BY 4.0](../../../LICENSE) です。外部リンク、引用、第三者素材の権利は含みません。
+
+## Visual examples
+
+### Stanley Kubrick
+
+![Stanley Kubrick: original teaching illustration](../../assets/examples/photorealistic/style-mechanisms/07-kubrick.jpg)
+
+Geometry becomes pressure: a small figure, repeated lines and a rigid central axis make the space feel more powerful than the person.
+
+### Wong Kar-wai
+
+![Wong Kar-wai: original teaching illustration](../../assets/examples/photorealistic/style-mechanisms/13-wong-kar-wai.jpg)
+
+Occlusion, reflections and separated positions make an unfinished relationship visible before anyone explains it.
+
+### Akira Kurosawa
+
+![Akira Kurosawa: original teaching illustration](../../assets/examples/photorealistic/style-mechanisms/11-kurosawa.jpg)
+
+Weather and group direction carry conflict. Read who faces where, which body moves first and how the group responds.
+
+### Zhang Yimou
+
+![Zhang Yimou: original teaching illustration](../../assets/examples/photorealistic/style-mechanisms/14-zhang-yimou.jpg)
+
+Color, repetition and collective formations turn an individual choice into a visible relationship with a larger order.
+
+[Director library](../../../knowledge/A-%E7%90%86%E8%AE%BA%E5%B1%82/A2-%E5%AF%BC%E6%BC%94%E7%BB%84/A2-05%20%E5%AF%BC%E6%BC%94%E4%B8%8E%E6%91%84%E5%BD%B1%E6%8C%87%E5%AF%BC%E9%A3%8E%E6%A0%BC.md)

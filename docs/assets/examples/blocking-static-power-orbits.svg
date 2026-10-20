@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="820" viewBox="0 0 880 820" role="img" aria-labelledby="title desc">
+  <title id="title">静态权力中心与他人轨道的六人站位图</title>
+  <desc id="desc">一名静止的掌权者位于空间后部，五名来访者和工作人员通过等待、递交、记录、守门与绕行确认其权力。</desc>
+  <defs><style>.bg{fill:#101419}.panel{fill:#1b2229;stroke:#3f4b56;stroke-width:2}.title{fill:#f0ede5;font:700 30px 'Microsoft YaHei UI',sans-serif}.sub{fill:#aeb8c2;font:17px 'Microsoft YaHei UI',sans-serif}.h{fill:#e8e4da;font:700 22px 'Microsoft YaHei UI',sans-serif}.note{fill:#aeb8c2;font:16px 'Microsoft YaHei UI',sans-serif}.small{fill:#d7dde2;font:15px 'Microsoft YaHei UI',sans-serif}.p{fill:#e7b65c}.v{fill:#77aecd}.staff{fill:#75b995}.guard{fill:#d96e66}.person{stroke:#101419;stroke-width:3}.txt{fill:#101419;font:700 13px 'Microsoft YaHei UI',sans-serif;text-anchor:middle;dominant-baseline:middle}.move{stroke:#77aecd;stroke-width:5;fill:none;marker-end:url(#a)}.work{stroke:#75b995;stroke-width:4;fill:none;marker-end:url(#g)}.wait{stroke:#e7b65c;stroke-width:3;fill:none;stroke-dasharray:8 6}.eye{stroke:#d7dde2;stroke-width:2;fill:none;stroke-dasharray:5 5}.wall{stroke:#87929d;stroke-width:8}.table{fill:#303941;stroke:#66727e;stroke-width:3}.focus{fill:none;stroke:#e7b65c;stroke-width:3;stroke-dasharray:8 6}.layer{fill:#252d35;stroke:#4c5964;stroke-width:2}</style><marker id="a" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0 0L9 3L0 6Z" fill="#77aecd"/></marker><marker id="g" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0 0L9 3L0 6Z" fill="#75b995"/></marker></defs>
+  <rect class="bg" width="880" height="820"/><text class="title" x="50" y="55">静态权力中心 + 他人轨道｜6人执行模板</text><text class="sub" x="50" y="88">权力不靠站得高，而靠其他人必须等待、递交、记录、让路和获得许可。</text>
+  <g transform="translate(45 125)"><rect class="panel" width="820" height="610" rx="16"/><text class="h" x="28" y="42">A｜俯视空间图：1核心 + 2来访者 + 3工作人员</text>
+    <rect x="40" y="70" width="740" height="455" rx="10" fill="#151b20" stroke="#55616c" stroke-width="3"/>
+    <path class="wall" d="M70 100H750M70 100V495M750 100V495"/><path class="wall" d="M70 495H260M350 495H750"/><text class="small" x="270" y="520">唯一入口</text>
+    <rect class="table" x="275" y="180" width="285" height="150" rx="16"/>
+    <circle class="p person" cx="417" cy="145" r="28"/><text class="txt" x="417" y="145">P</text><circle class="focus" cx="417" cy="145" r="48"/>
+    <circle class="v person" cx="417" cy="385" r="24"/><text class="txt" x="417" y="385">V1</text><path class="move" d="M417 468V418"/>
+    <circle class="v person" cx="310" cy="405" r="22"/><text class="txt" x="310" y="405">V2</text><path class="wait" d="M275 442H350"/>
+    <circle class="staff person" cx="580" cy="365" r="22"/><text class="txt" x="580" y="365">S1</text><path class="work" d="M565 345Q520 320 500 295"/>
+    <circle class="staff person" cx="655" cy="250" r="21"/><text class="txt" x="655" y="250">S2</text><path class="work" d="M650 280Q625 350 540 415"/>
+    <circle class="guard person" cx="305" cy="478" r="22"/><text class="txt" x="305" y="478">G</text>
+    <path class="eye" d="M417 357V175M330 392L395 165M560 350L440 165M637 245L445 150"/>
+    <text class="small" x="90" y="125">P始终不动</text><text class="small" x="565" y="125">其他人的路线围绕P成立</text>
+    <text class="note" x="40" y="565">P不必居中或站立；只要V1递交、V2等待、S1记录、S2绕行传令、G控制入口，关系中心就清楚。</text>
+  </g>
+  <g transform="translate(895 125)"><rect class="panel" width="460" height="610" rx="16"/><text class="h" x="28" y="42">B｜观众画面：响应链</text>
+    <rect class="layer" x="35" y="80" width="390" height="125" rx="10"/><text class="small" x="50" y="108">后景｜P坐定；S1侧后记录</text><circle class="p person" cx="230" cy="158" r="28"/><circle class="staff person" cx="330" cy="168" r="19"/>
+    <rect class="layer" x="35" y="222" width="390" height="145" rx="10"/><text class="small" x="50" y="250">中景｜V1递交；V2停在许可线外</text><circle class="v person" cx="165" cy="322" r="24"/><circle class="v person" cx="310" cy="315" r="22"/><path class="move" d="M165 292V270"/>
+    <rect class="layer" x="35" y="384" width="390" height="128" rx="10"/><text class="small" x="50" y="412">前景｜G守入口；S2横向传令</text><circle class="guard person" cx="115" cy="475" r="27"/><circle class="staff person" cx="330" cy="470" r="25"/><path class="work" d="M300 470H185"/>
+    <text class="note" x="35" y="548">触发：P只做一个许可动作；随后五人的路线或姿态同时改变。</text><text class="note" x="35" y="580">失败判定：其他人可自由行动，P就只是“暗处坐着的人”。</text>
+  </g><text class="sub" x="50" y="785">验证权力要看响应与后果，不以暗调、顶光、中心构图或高低位置单独下结论。</text>
+</svg>

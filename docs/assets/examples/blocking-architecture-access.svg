@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="820" viewBox="0 0 880 820" role="img" aria-labelledby="title desc">
+  <title id="title">建筑高差、通道所有权与阶级移动的七人站位图</title>
+  <desc id="desc">剖面图显示七名匿名人物分布在上层平台、门槛、楼梯、地面层和地下层，重点是通行许可、停留权、观看权和离开权，而不是简单把高处等同权力。</desc>
+  <defs><style>.bg{fill:#101419}.panel{fill:#1b2229;stroke:#3f4b56;stroke-width:2}.title{fill:#f0ede5;font:700 30px 'Microsoft YaHei UI',sans-serif}.sub{fill:#aeb8c2;font:17px 'Microsoft YaHei UI',sans-serif}.h{fill:#e8e4da;font:700 22px 'Microsoft YaHei UI',sans-serif}.note{fill:#aeb8c2;font:16px 'Microsoft YaHei UI',sans-serif}.small{fill:#d7dde2;font:15px 'Microsoft YaHei UI',sans-serif}.owner{fill:#e7b65c}.visitor{fill:#77aecd}.worker{fill:#75b995}.blocker{fill:#d96e66}.person{stroke:#101419;stroke-width:3}.txt{fill:#101419;font:700 13px 'Microsoft YaHei UI',sans-serif;text-anchor:middle;dominant-baseline:middle}.move{stroke:#77aecd;stroke-width:5;fill:none;marker-end:url(#a)}.work{stroke:#75b995;stroke-width:4;fill:none;marker-end:url(#g)}.deny{stroke:#d96e66;stroke-width:4;fill:none}.arch{stroke:#87929d;stroke-width:8;fill:none}.floor{fill:#2b333a;stroke:#596570;stroke-width:3}.zone{fill:#e7b65c;opacity:.1;stroke:#e7b65c;stroke-width:2;stroke-dasharray:8 6}.window{fill:#77aecd;opacity:.22;stroke:#77aecd;stroke-width:3}.layer{fill:#252d35;stroke:#4c5964;stroke-width:2}</style><marker id="a" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0 0L9 3L0 6Z" fill="#77aecd"/></marker><marker id="g" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0 0L9 3L0 6Z" fill="#75b995"/></marker></defs>
+  <rect class="bg" width="880" height="820"/><text class="title" x="50" y="55">建筑高差 + 通道所有权｜7人执行模板</text><text class="sub" x="50" y="88">高低只是地理；真正的阶级关系要通过谁能进入、停留、观看、绕行和离开来验证。</text>
+  <g transform="translate(45 125)"><rect class="panel" width="820" height="610" rx="16"/><text class="h" x="28" y="42">A｜建筑剖面：上层2 / 门槛2 / 楼梯1 / 下层2</text>
+    <rect x="40" y="70" width="740" height="455" rx="10" fill="#151b20" stroke="#55616c" stroke-width="3"/>
+    <rect class="floor" x="420" y="115" width="325" height="32"/><rect class="floor" x="75" y="320" width="670" height="32"/><rect class="floor" x="75" y="488" width="670" height="32"/>
+    <path class="arch" d="M380 320L515 147M355 320L490 147"/><path class="arch" d="M140 488L260 352M115 488L235 352"/>
+    <rect class="window" x="665" y="160" width="55" height="115"/><rect class="zone" x="410" y="85" width="340" height="220" rx="12"/>
+    <circle class="owner person" cx="590" cy="112" r="25"/><text class="txt" x="590" y="112">A</text><circle class="worker person" cx="695" cy="285" r="20"/><text class="txt" x="695" y="285">B</text>
+    <path class="deny" d="M372 275L438 335M438 275L372 335"/><circle class="blocker person" cx="405" cy="304" r="23"/><text class="txt" x="405" y="304">C</text>
+    <circle class="visitor person" cx="335" cy="260" r="22"/><text class="txt" x="335" y="260">D</text><path class="move" d="M315 280L285 315"/>
+    <circle class="visitor person" cx="225" cy="420" r="23"/><text class="txt" x="225" y="420">E</text><path class="move" d="M245 395L315 335"/>
+    <circle class="worker person" cx="105" cy="465" r="21"/><text class="txt" x="105" y="465">F</text><path class="work" d="M130 465H210"/>
+    <circle class="visitor person" cx="575" cy="462" r="23"/><text class="txt" x="575" y="462">G</text><path class="move" d="M600 462H700"/>
+    <text class="small" x="470" y="182">A可停留并观看</text><text class="small" x="465" y="302">C控制上层唯一入口</text><text class="small" x="450" y="450">G虽在低处，却握有离开路线</text>
+    <text class="note" x="40" y="565">至少让一人跨层、一人守门、一人被迫绕行；否则楼梯和门框只是美术背景，不构成调度。</text>
+  </g>
+  <g transform="translate(895 125)"><rect class="panel" width="460" height="610" rx="16"/><text class="h" x="28" y="42">B｜四种权利必须可见</text>
+    <rect class="layer" x="35" y="82" width="390" height="100" rx="10"/><text class="small" x="55" y="115">进入权｜C一句允许或阻拦，D路线改变</text><circle class="blocker person" cx="105" cy="151" r="18"/><path class="move" d="M150 151H255"/></g>
+  <g transform="translate(895 325)"><rect class="layer" x="35" y="0" width="390" height="100" rx="10"/><text class="small" x="55" y="33">停留权｜A可停，E必须持续移动</text><circle class="owner person" cx="105" cy="70" r="18"/><circle class="visitor person" cx="215" cy="70" r="18"/><path class="move" d="M245 70H340"/></g>
+  <g transform="translate(895 442)"><rect class="layer" x="35" y="0" width="390" height="100" rx="10"/><text class="small" x="55" y="33">观看权｜B能看见下层，F看不见上层</text><rect class="window" x="85" y="54" width="35" height="34"/><circle class="worker person" cx="210" cy="70" r="18"/></g>
+  <g transform="translate(895 559)"><rect class="layer" x="35" y="0" width="390" height="100" rx="10"/><text class="small" x="55" y="33">离开权｜G掌握出口，可反转表面高低关系</text><circle class="visitor person" cx="105" cy="70" r="18"/><path class="move" d="M135 70H330"/></g>
+  <text class="note" x="930" y="702">触发：门关闭、许可撤回或有人越过门槛，空间关系必须立即重排。</text><text class="sub" x="50" y="785">不要把“上贵下贫”当固定符号；如果低处的人控制出口或信息，权力可能与高度相反。</text>
+</svg>

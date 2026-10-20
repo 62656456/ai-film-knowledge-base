@@ -1,11 +1,10 @@
 #!/usr/bin/env python3
 """Prepare the public knowledge notes for direct, uncluttered GitHub reading.
 
-The source-vault images are intentionally not restored here. This script removes
-the repetitive public-edition placeholder syntax, preserves descriptive image
-ideas as text examples, prunes headings whose entire subtree became empty, adds
-one rights note per affected teaching card, and embeds only the original public
-SVGs registered in docs/VISUAL_ASSETS.md.
+This legacy cleanup preserves existing image embeds, removes obsolete placeholder
+syntax, and adds the ten public-method diagrams when missing. Source teaching
+illustrations are now public and registered in docs/IMAGE_MANIFEST.json; this
+script must not remove them or reintroduce the former blanket publication hold.
 """
 
 from __future__ import annotations
@@ -147,8 +146,8 @@ def add_page_rights_note(path: Path, lines: list[str]) -> list[str]:
         return lines
     register = relative_link(path, VISUAL_REGISTER)
     note = (
-        f"{PUBLIC_NOTE_MARKER} 原资料中未完成再分发权核验的图片不进入公开仓库；"
-        f"本页只显示已登记的原创公共图示。详见 [视觉资产登记]({register})。"
+        f"{PUBLIC_NOTE_MARKER} 本库教学图已公开，图片性质与来源按登记说明使用。"
+        f"详见 [视觉资产登记]({register})。"
     )
     for index, line in enumerate(lines):
         if line.startswith("# "):

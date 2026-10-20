@@ -27,6 +27,6 @@ Review rule: file existence, content review, real-output evidence, and designate
 
 Evidence rule: keep stable mechanisms, source-backed interpretations, practical methods, candidate methods, time-sensitive facts, and unknowns distinct. Recheck changing platform facts against current primary sources. Do not infer unavailable linked content.
 
-Image rule: `knowledge/` is Markdown-only. The ten current public teaching diagrams are original SVGs under `docs/assets/knowledge/` and are registered in `docs/VISUAL_ASSETS.md`. Do not infer access to the 730 private source-vault images: 0 are uploaded, 622 remain private conditional candidates pending explicit unified authorization, 86 lack sufficient evidence, and 22 are excluded.
+Image rule: 696 source teaching images are published under docs/assets/examples/ with 730 placements in 41 knowledge notes, alongside ten public-method SVGs. Maintainer publication authorization was explicit on 2026-10-20. Use docs/IMAGE_MANIFEST.json for file, purpose, license, hash and note locations; use docs/IMAGE_GALLERY.md for visual browsing. Illustrations are educational constructions, not original film frames or proof of actual production parameters. knowledge/ remains Markdown-only.
 
 Public boundary: do not infer, request, or reconstruct personal projects, private retrospectives, private AI infrastructure, private validation evidence, inspiration archives, raw chats, session identifiers, local paths, or source-vault image files.

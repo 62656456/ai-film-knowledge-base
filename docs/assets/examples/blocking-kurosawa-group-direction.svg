@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="820" viewBox="0 0 880 820" role="img" aria-labelledby="title desc">
+  <title id="title">群体几何、方向性运动与环境参与的八人站位图</title>
+  <desc id="desc">俯视图显示八名匿名人物按两组阵营与一个迟疑者分布，并标出持续动作和环境运动方向。</desc>
+  <defs>
+    <style>
+      .bg{fill:#101419}.panel{fill:#1b2229;stroke:#3f4b56;stroke-width:2}.title{fill:#f0ede5;font:700 30px 'Microsoft YaHei UI',sans-serif}.sub{fill:#aeb8c2;font:17px 'Microsoft YaHei UI',sans-serif}.h{fill:#e8e4da;font:700 22px 'Microsoft YaHei UI',sans-serif}.note{fill:#aeb8c2;font:16px 'Microsoft YaHei UI',sans-serif}.small{fill:#d7dde2;font:15px 'Microsoft YaHei UI',sans-serif}.a{fill:#77aecd}.b{fill:#d96e66}.c{fill:#e7b65c}.person{stroke:#101419;stroke-width:3}.txt{fill:#101419;font:700 13px 'Microsoft YaHei UI',sans-serif;text-anchor:middle;dominant-baseline:middle}.moveA{stroke:#77aecd;stroke-width:5;fill:none;marker-end:url(#arrowA)}.moveB{stroke:#d96e66;stroke-width:5;fill:none;marker-end:url(#arrowB)}.moveC{stroke:#e7b65c;stroke-width:4;fill:none;stroke-dasharray:8 6;marker-end:url(#arrowC)}.wind{stroke:#75b995;stroke-width:3;fill:none;opacity:.8;marker-end:url(#arrowG)}.zoneA{fill:#77aecd;opacity:.1;stroke:#77aecd;stroke-width:2;stroke-dasharray:8 6}.zoneB{fill:#d96e66;opacity:.1;stroke:#d96e66;stroke-width:2;stroke-dasharray:8 6}.floor{stroke:#55616c;stroke-width:2}.layer{fill:#252d35;stroke:#4c5964;stroke-width:2}.line{stroke:#87929d;stroke-width:3}.dash{stroke:#66727e;stroke-width:2;stroke-dasharray:7 6}.env{fill:#75b995}
+    </style>
+    <marker id="arrowA" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0 0L9 3L0 6Z" fill="#77aecd"/></marker>
+    <marker id="arrowB" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0 0L9 3L0 6Z" fill="#d96e66"/></marker>
+    <marker id="arrowC" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0 0L9 3L0 6Z" fill="#e7b65c"/></marker>
+    <marker id="arrowG" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0 0L9 3L0 6Z" fill="#75b995"/></marker>
+  </defs>
+  <rect class="bg" width="880" height="820"/>
+  <text class="title" x="50" y="55">群体几何 + 方向性运动｜8人执行模板</text>
+  <text class="sub" x="50" y="88">先分阵营与行动方向，再让环境运动放大“集结—迟疑—溃散”的变化；不是简单增加风雨。</text>
+
+  <g transform="translate(45 125)">
+    <rect class="panel" width="820" height="610" rx="16"/>
+    <text class="h" x="28" y="42">A｜俯视空间图：4 + 3 + 1</text>
+    <rect x="40" y="70" width="740" height="455" rx="10" fill="#151b20" stroke="#55616c" stroke-width="3"/>
+    <path class="zoneA" d="M70 112H340L385 285L325 480H70Z"/>
+    <path class="zoneB" d="M750 105H490L430 260L505 480H750Z"/>
+    <text class="small" x="85" y="102">蓝组：集结后向右推进</text>
+    <text class="small" x="505" y="102">红组：受压后向右下撤离</text>
+    <circle class="a person" cx="150" cy="205" r="25"/><text class="txt" x="150" y="205">A1</text>
+    <circle class="a person" cx="245" cy="170" r="22"/><text class="txt" x="245" y="170">A2</text>
+    <circle class="a person" cx="220" cy="300" r="24"/><text class="txt" x="220" y="300">A3</text>
+    <circle class="a person" cx="305" cy="385" r="20"/><text class="txt" x="305" y="385">A4</text>
+    <path class="moveA" d="M176 205H405"/><path class="moveA" d="M245 198Q300 230 390 245"/>
+    <circle class="b person" cx="625" cy="190" r="25"/><text class="txt" x="625" y="190">B1</text>
+    <circle class="b person" cx="570" cy="305" r="23"/><text class="txt" x="570" y="305">B2</text>
+    <circle class="b person" cx="670" cy="390" r="21"/><text class="txt" x="670" y="390">B3</text>
+    <path class="moveB" d="M650 205Q705 245 720 315"/><path class="moveB" d="M590 330Q630 380 700 435"/>
+    <circle class="c person" cx="425" cy="330" r="25"/><text class="txt" x="425" y="330">C</text>
+    <path class="moveC" d="M425 300V215"/><path class="moveC" d="M448 340L510 375"/>
+    <text class="small" x="354" y="375">C迟疑：加入或退开</text>
+    <path class="wind" d="M85 455Q245 420 390 455T730 455"/>
+    <path class="wind" d="M100 485Q270 450 410 485T720 485"/>
+    <text class="small env" x="85" y="512">旗、雨、尘土持续向右；若人物逆行，冲突立即可见</text>
+    <text class="note" x="40" y="565">站位检查：A1领方向；A2/A3形成纵深；A4补后方反应；B1先受压，B2/B3沿出口撤；C承担犹豫与转折。</text>
+  </g>
+
+  <g transform="translate(895 125)">
+    <rect class="panel" width="460" height="610" rx="16"/>
+    <text class="h" x="28" y="42">B｜观众画面：2 / 4 / 2</text>
+    <rect class="layer" x="35" y="80" width="390" height="128" rx="10"/>
+    <text class="small" x="50" y="106">后景 2人｜B1看向出口，B3持续撤离</text>
+    <circle class="b person" cx="180" cy="155" r="18"/><circle class="b person" cx="330" cy="155" r="17"/>
+    <path class="moveB" d="M350 155H395"/>
+    <rect class="layer" x="35" y="225" width="390" height="150" rx="10"/>
+    <text class="small" x="50" y="252">中景 4人｜A1/A2推进，B2后退，C迟疑</text>
+    <circle class="a person" cx="105" cy="320" r="24"/><circle class="a person" cx="185" cy="295" r="22"/>
+    <circle class="c person" cx="285" cy="325" r="21"/><circle class="b person" cx="365" cy="295" r="22"/>
+    <rect class="layer" x="35" y="392" width="390" height="120" rx="10"/>
+    <text class="small" x="50" y="419">前景 2人｜A3/A4横穿，但不遮住中景转折</text>
+    <circle class="a person" cx="145" cy="472" r="30"/><circle class="a person" cx="315" cy="472" r="27"/>
+    <path class="moveA" d="M175 472H265"/>
+    <path class="wind" d="M55 535H405"/>
+    <text class="note" x="35" y="575">持续动作：至少两组不同任务；主体停住时，撤离组与环境仍在运动。</text>
+  </g>
+  <text class="sub" x="50" y="785">颜色只区分阵营和转折角色，不代表善恶；图中标签、网格与箭头仅供调度控制，禁止进入成片。</text>
+</svg>

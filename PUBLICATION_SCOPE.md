@@ -2,48 +2,27 @@
 
 ## Included
 
-- **105 personally authored Markdown notes**: 4 public overview notes, 51 theory notes, 43 practice notes, and 7 public review and acceptance notes;
-- three direct GitHub reading routes: `A-理论层`, `B-实战层`, and `C-审核与验收层`;
-- film language, cinematography, directing, screenwriting, storyboarding, prompt engineering, bounded platform practice, review, directed return, evidence, and acceptance methods;
-- ten original explanatory SVGs created for this public reading edition and registered in `docs/VISUAL_ASSETS.md`;
-- original repository documentation, multilingual entry pages, catalog generation, and validation tooling.
+- **105 personally authored Markdown notes**: 4 public overview notes, 51 theory notes, 43 practice notes and 7 public review notes.
+- **696 original source teaching images**, explicitly authorized for public distribution by the repository maintainer on 2026-10-20; **730 placements** in **41 knowledge notes**.
+- **10 original public-method SVGs** and four-language repository entry pages.
+- A topic-based image gallery, per-image records, a complete note catalog and repository validation.
 
-The public C route is newly written reusable guidance. It is not a sanitized dump or renamed copy of a private project-review archive.
+The library is a director-oriented knowledge system spanning cinematography, directing, screenwriting, storyboards, prompting, production and review. Each note can be read directly on GitHub.
 
-## Source-image audit
+## Images are part of the public library
 
-The private source vault contained **730 local images**. This release includes **0 of those source-vault images**.
+All existing source illustrations referenced by the current public theory and practice notes are included. The old “622 conditional candidates / 0 uploaded” hold is superseded by the maintainer’s publication authorization and this release’s real file inventory: 696 unique files, 730 placements. The former count must not be described as 730 distinct image files.
 
-| Audit class | Count | Public decision |
-|---|---:|---|
-| Conditional candidates | 622 | Remain private until one explicit, unified redistribution authorization and the required per-image publication record both exist |
-| Insufficient provenance or rights evidence | 86 | Excluded unless the missing source and permission evidence is recovered and reviewed |
-| Excluded | 22 | Not eligible for this public release |
-| Source-vault images uploaded | 0 | No original source-vault image is shipped |
+Files live under `docs/assets/examples/`; `knowledge/` retains its existing Markdown-only organization. Relative image links put the illustrations beside their knowledge explanations. Original bytes are preserved. [IMAGE_MANIFEST.json](docs/IMAGE_MANIFEST.json) records every file, dimensions, author/creation basis, license, SHA-256 and knowledge locations. [IMAGE_GALLERY.md](docs/IMAGE_GALLERY.md) provides visual browsing.
 
-The ten public SVGs are separate, newly authored teaching diagrams. They are not part of the 730-image source set and were not copied, traced, or transformed from it.
+The existing illustrations are educational constructions, including generated images and diagrams. They are not original film frames, factual production stills, proof of actual camera settings, or proof of dynamic action or sound.
 
-## Public-copy transformations
+## Private material remains outside the publication
 
-- private vault layers, projects, conversations, evidence appendices, and local application state are omitted rather than superficially anonymized;
-- Obsidian wikilinks are converted to ordinary GitHub-readable Markdown links;
-- old image-withheld placeholders are removed instead of being presented as visual content;
-- local links must resolve and local knowledge illustrations must point only to registered original SVGs;
-- personal machine paths, session identifiers, caches, temporary outputs, and private review material are rejected by validation;
-- `knowledge/` remains a Markdown-only corpus.
+Personal projects, private retrospectives, raw chats, personal profiles, company/client material, credentials, account state, local configurations and machine paths are outside this film-knowledge publication. Public C is reusable review guidance, not the private AI-infrastructure or retrospective layer. Whole books, paid courses and third-party packages are outside the corpus.
 
-## Intentionally excluded
+The pre-sanitization Git history remains outside the public repository. This release adds knowledge images to the existing sanitized history.
 
-- the private `C-AI基础设施` layer, private `D-复盘与验证层`, and private `E-灵感参照层`;
-- personal identity, personal projects, project names and status, private retrospectives, unpublished scripts, private evidence, and raw chats;
-- conversation or session identifiers, personal behavior analysis, message statistics, and machine-local paths;
-- company and client work, credentials, login state, account data, and local session stores;
-- copied books, courses, paid materials, and third-party images without verified redistribution permission;
-- `project_005_SUPER_I_COURSE_KB` and any scraped or copied third-party course collection;
-- all 730 source-vault images unless a future release separately clears and registers an individual image.
+## License
 
-The original pre-sanitization Git history is not used for the public repository. Public Git history begins only after excluded layers and files have been removed.
-
-## License boundary
-
-The CC BY 4.0 license covers the author's original public text, compilation, and the ten registered original SVGs. It does not grant rights over cited third-party names, short attributed fragments, linked pages, or external material.
+The author’s original public text, compilation and registered original educational illustrations use [CC BY 4.0](LICENSE). References, linked film material, names and third-party works retain their owners’ rights; a citation does not grant a new license to those works. Public availability and user aesthetic approval are separate facts.

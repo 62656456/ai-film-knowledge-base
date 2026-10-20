@@ -1,5 +1,14 @@
 # Release notes
 
+## 2026-10-20 · Illustrated public library
+
+- Published all 696 existing source illustrations used by the public knowledge notes, preserving original bytes; restored 730 placements across 41 notes.
+- Replaced the old 622-candidate / zero-upload hold with the maintainer’s explicit publication authorization and a per-file public manifest. The current inventory distinguishes unique files from repeated embeds.
+- Redesigned the main and Chinese homepages around real images, director mechanisms, short explanations and direct reading links; synchronized image publication facts in all four languages.
+- Added a complete topic gallery; updated validation to check registered images, hashes and knowledge placements while retaining privacy and secret checks.
+- Kept the 105 knowledge notes and the ten public-method diagrams. Director-research expansion in the private source library is delegated separately; it is not claimed as part of this release.
+
+
 ## v1.1.0 — 2026-08-17
 
 GitHub reading and public review edition.

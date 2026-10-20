@@ -1,86 +1,80 @@
-<div align="center">
-
-<img src="docs/assets/hero.svg" width="100%" alt="AI Film Knowledge Base — a public theory, practice, and review library for filmmaking" />
-
 # AI Film Knowledge Base
 
-**Read one note directly on GitHub—or follow the complete route from film judgment to production and review.**
+**A visual knowledge system for directors. See the image. Understand the choice. Make your own.**
 
 [简体中文](docs/i18n/zh-CN/README.md) · [日本語](docs/i18n/ja/README.md) · [한국어](docs/i18n/ko/README.md) · **English**
 
-![Markdown notes](https://img.shields.io/badge/markdown_notes-105-FF6B35?style=flat-square)
-![Public routes](https://img.shields.io/badge/public_routes-theory%20%2B%20practice%20%2B%20review-46C2CB?style=flat-square)
-![Original diagrams](https://img.shields.io/badge/original_diagrams-10-5B8CFF?style=flat-square)
-![Languages](https://img.shields.io/badge/repository_languages-4-8D73FF?style=flat-square)
-[![License](https://img.shields.io/badge/content_license-CC_BY_4.0-D6A756?style=flat-square)](LICENSE)
-[![Validate Knowledge Base](https://github.com/62656456/ai-film-knowledge-base/actions/workflows/validate.yml/badge.svg)](https://github.com/62656456/ai-film-knowledge-base/actions/workflows/validate.yml)
+Cinematography, directing, screenwriting, storyboards, prompts and review—connected through images and practical explanations. Read one note on its own, or follow a creative decision through the whole system.
 
-</div>
+**105 notes · 696 published source images · 730 in-note image placements · 10 public method diagrams**
 
-## Read directly on GitHub
+[Explore the image gallery](docs/IMAGE_GALLERY.md) · [Browse all notes](CATALOG.md) · [Open the director library](knowledge/A-%E7%90%86%E8%AE%BA%E5%B1%82/A2-%E5%AF%BC%E6%BC%94%E7%BB%84/A2-05%20%E5%AF%BC%E6%BC%94%E4%B8%8E%E6%91%84%E5%BD%B1%E6%8C%87%E5%AF%BC%E9%A3%8E%E6%A0%BC.md)
 
-No installation, database import, Obsidian vault, or companion Skill is required. Open any Markdown note in the repository and read it in GitHub's normal file view. Each note is written to be useful by itself; the indexes connect the same notes into a larger system.
+[<img src="docs/assets/examples/photorealistic/style-mechanisms/04-villeneuve.jpg" width="100%" alt="原创教学示意：巨大建筑与小人物的尺度对比 / An original teaching illustration of a small figure in monumental architecture" /> ](knowledge/A-%E7%90%86%E8%AE%BA%E5%B1%82/A2-%E5%AF%BC%E6%BC%94%E7%BB%84/A2-05%20%E5%AF%BC%E6%BC%94%E4%B8%8E%E6%91%84%E5%BD%B1%E6%8C%87%E5%AF%BC%E9%A3%8E%E6%A0%BC.md)
 
-| A · Theory | B · Practice | C · Review |
-|---|---|---|
-| Understand why a film-language, directing, cinematography, or screenwriting choice works. | Turn judgment into storyboards, prompts, shot output, action direction, and bounded platform workflows. | Freeze the input, review the result, return it to the broken decision, and distinguish technical success from actual acceptance. |
-| **51 notes** · [Browse A on GitHub](knowledge/A-理论层/) | **43 notes** · [Browse B on GitHub](knowledge/B-实战层/) | **7 notes** · [Browse C on GitHub](knowledge/C-审核与验收层/) |
+**Start with this frame.** The figure occupies only a small part of the image; vertical architecture directs attention toward the backlit person. Scale, space and light already carry dramatic pressure. The [director and cinematographer library](knowledge/A-%E7%90%86%E8%AE%BA%E5%B1%82/A2-%E5%AF%BC%E6%BC%94%E7%BB%84/A2-05%20%E5%AF%BC%E6%BC%94%E4%B8%8E%E6%91%84%E5%BD%B1%E6%8C%87%E5%AF%BC%E9%A3%8E%E6%A0%BC.md) connects observations like these to works, collaborators and limits.
 
-You can also open the [complete catalog](CATALOG.md), start from the [public overview](knowledge/00-总纲/), or search the repository for one concrete question.
+## How directors organize an image
+
+These are original illustrations of observable mechanisms, **not frames from the directors’ films**. Names locate a body of work; the usable knowledge is in framing, blocking, light, time and sound.
+
+| **Stanley Kubrick** | **Wong Kar-wai** |
+|---|---|
+| [<img src="docs/assets/examples/photorealistic/style-mechanisms/07-kubrick.jpg" width="100%" alt="斯坦利·库布里克：原创画面机制教学示意" />](knowledge/A-%E7%90%86%E8%AE%BA%E5%B1%82/A2-%E5%AF%BC%E6%BC%94%E7%BB%84/A2-05%20%E5%AF%BC%E6%BC%94%E4%B8%8E%E6%91%84%E5%BD%B1%E6%8C%87%E5%AF%BC%E9%A3%8E%E6%A0%BC.md) | [<img src="docs/assets/examples/photorealistic/style-mechanisms/13-wong-kar-wai.jpg" width="100%" alt="王家卫：原创画面机制教学示意" />](knowledge/A-%E7%90%86%E8%AE%BA%E5%B1%82/A2-%E5%AF%BC%E6%BC%94%E7%BB%84/A2-05%20%E5%AF%BC%E6%BC%94%E4%B8%8E%E6%91%84%E5%BD%B1%E6%8C%87%E5%AF%BC%E9%A3%8E%E6%A0%BC.md) |
+| Geometry becomes pressure: a small figure, repeated lines and a rigid central axis make the space feel more powerful than the person. | Occlusion, reflections and separated positions make an unfinished relationship visible before anyone explains it. |
+
+| **Akira Kurosawa** | **Zhang Yimou** |
+|---|---|
+| [<img src="docs/assets/examples/photorealistic/style-mechanisms/11-kurosawa.jpg" width="100%" alt="黑泽明：原创画面机制教学示意" />](knowledge/A-%E7%90%86%E8%AE%BA%E5%B1%82/A2-%E5%AF%BC%E6%BC%94%E7%BB%84/A2-05%20%E5%AF%BC%E6%BC%94%E4%B8%8E%E6%91%84%E5%BD%B1%E6%8C%87%E5%AF%BC%E9%A3%8E%E6%A0%BC.md) | [<img src="docs/assets/examples/photorealistic/style-mechanisms/14-zhang-yimou.jpg" width="100%" alt="张艺谋：原创画面机制教学示意" />](knowledge/A-%E7%90%86%E8%AE%BA%E5%B1%82/A2-%E5%AF%BC%E6%BC%94%E7%BB%84/A2-05%20%E5%AF%BC%E6%BC%94%E4%B8%8E%E6%91%84%E5%BD%B1%E6%8C%87%E5%AF%BC%E9%A3%8E%E6%A0%BC.md) |
+| Weather and group direction carry conflict. Read who faces where, which body moves first and how the group responds. | Color, repetition and collective formations turn an individual choice into a visible relationship with a larger order. |
+
+| **Steven Spielberg** | **David Fincher** |
+|---|---|
+| [<img src="docs/assets/examples/photorealistic/style-mechanisms/02-spielberg.jpg" width="100%" alt="史蒂文·斯皮尔伯格：原创画面机制教学示意" />](knowledge/A-%E7%90%86%E8%AE%BA%E5%B1%82/A2-%E5%AF%BC%E6%BC%94%E7%BB%84/A2-05%20%E5%AF%BC%E6%BC%94%E4%B8%8E%E6%91%84%E5%BD%B1%E6%8C%87%E5%AF%BC%E9%A3%8E%E6%A0%BC.md) | [<img src="docs/assets/examples/photorealistic/style-mechanisms/06-fincher.jpg" width="100%" alt="大卫·芬奇：原创画面机制教学示意" />](knowledge/A-%E7%90%86%E8%AE%BA%E5%B1%82/A2-%E5%AF%BC%E6%BC%94%E7%BB%84/A2-05%20%E5%AF%BC%E6%BC%94%E4%B8%8E%E6%91%84%E5%BD%B1%E6%8C%87%E5%AF%BC%E9%A3%8E%E6%A0%BC.md) |
+| A reaction and an eyeline prepare the reveal. The spectator discovers an event through a person, rather than receiving everything at once. | Controlled framing and restrained light organize attention, withheld information and the pressure between characters. |
+
+Read the complete note: [21 director/cinematographer profiles and 15 deeper cases](knowledge/A-%E7%90%86%E8%AE%BA%E5%B1%82/A2-%E5%AF%BC%E6%BC%94%E7%BB%84/A2-05%20%E5%AF%BC%E6%BC%94%E4%B8%8E%E6%91%84%E5%BD%B1%E6%8C%87%E5%AF%BC%E9%A3%8E%E6%A0%BC.md).
+
+## Turn an image into a usable decision
+
+### Shot scale: what should the spectator move closer to?
+
+[<img src="docs/assets/examples/photorealistic/camera-language-mechanisms/18-controlled-shot-scale.png" width="100%" alt="景别：让观众靠近什么：原创教学对照图" />](knowledge/A-%E7%90%86%E8%AE%BA%E5%B1%82/A1-%E6%91%84%E5%BD%B1%E7%BB%84/A1-01%20%E6%99%AF%E5%88%AB%E7%B3%BB%E7%BB%9F.md)
+
+From environment to expression and detail, shot scale changes the information available now. Compare subject size, then read when each scale helps. [Read the illustrated explanation](knowledge/A-%E7%90%86%E8%AE%BA%E5%B1%82/A1-%E6%91%84%E5%BD%B1%E7%BB%84/A1-01%20%E6%99%AF%E5%88%AB%E7%B3%BB%E7%BB%9F.md)。
+
+### Blocking: make a relationship change
+
+[<img src="docs/assets/examples/photorealistic/blocking/23-team-constellation-mechanism.png" width="100%" alt="调度：让关系发生变化：原创教学对照图" />](knowledge/A-%E7%90%86%E8%AE%BA%E5%B1%82/A2-%E5%AF%BC%E6%BC%94%E7%BB%84/A2-01%20%E8%B0%83%E5%BA%A6%E4%B8%8E%E5%9C%BA%E9%9D%A2%E8%B0%83%E5%BA%A6.md)
+
+Position, orientation and distance form a relationship. Look at who occupies the center, who is separated and how one move changes the group’s balance. [Read the illustrated explanation](knowledge/A-%E7%90%86%E8%AE%BA%E5%B1%82/A2-%E5%AF%BC%E6%BC%94%E7%BB%84/A2-01%20%E8%B0%83%E5%BA%A6%E4%B8%8E%E5%9C%BA%E9%9D%A2%E8%B0%83%E5%BA%A6.md)。
+
+### Visual style: compare the image under shared conditions
+
+[<img src="docs/assets/examples/style-atlas/01_production_appearances.png" width="100%" alt="视觉风格：在相同条件下看差异：原创教学对照图" />](knowledge/A-%E7%90%86%E8%AE%BA%E5%B1%82/A2-%E5%AF%BC%E6%BC%94%E7%BB%84/A2-07%20%E7%94%B5%E5%BD%B1%E8%A7%86%E8%A7%89%E9%A3%8E%E6%A0%BC%E5%9D%90%E6%A0%87%E7%B3%BB%E4%B8%8E%E6%9C%AF%E8%AF%AD%E6%80%BB%E7%BA%B2.md)
+
+Keep the person, pose and basic composition comparable; observe how rendering changes line, volume, surface and light. The atlas turns style labels into visible choices. [Read the illustrated explanation](knowledge/A-%E7%90%86%E8%AE%BA%E5%B1%82/A2-%E5%AF%BC%E6%BC%94%E7%BB%84/A2-07%20%E7%94%B5%E5%BD%B1%E8%A7%86%E8%A7%89%E9%A3%8E%E6%A0%BC%E5%9D%90%E6%A0%87%E7%B3%BB%E4%B8%8E%E6%9C%AF%E8%AF%AD%E6%80%BB%E7%BA%B2.md)。
+
+## Start from your creative question
+
+| Question | Reading route | Notes |
+|---|---|---:|
+| Why does this image work? | [A · 理论 / Theory](knowledge/A-%E7%90%86%E8%AE%BA%E5%B1%82/) | 51 |
+| How do I turn the choice into a shot? | [B · 实战 / Practice](knowledge/B-%E5%AE%9E%E6%88%98%E5%B1%82/) | 43 |
+| What should I check in the result? | [C · 审核 / Review](knowledge/C-%E5%AE%A1%E6%A0%B8%E4%B8%8E%E9%AA%8C%E6%94%B6%E5%B1%82/) | 7 |
+
+With 4 overview notes, the corpus contains **105 authored Markdown notes**. No installation is needed: open any note directly on GitHub. Original images are available to view and download; the [image manifest](docs/IMAGE_MANIFEST.json) records files, dimensions, licenses, checksums and reading locations.
 
 <img src="docs/assets/knowledge/knowledge-route.svg" width="100%" alt="Choose A Theory, B Practice, or C Review directly on GitHub; every route remains independently usable." />
 
-## What is public
+## For readers and creative tools
 
-This edition contains **105 authored Markdown notes**:
+The canonical notes are in Simplified Chinese, with four-language entry pages. Ordinary Markdown works for people and file-reading Agents. Companion [Open Film Skills](https://github.com/62656456/ai-film-skills) provide executable writing, directing and storyboard workflows; individual notes and Skills remain independently usable.
 
-- 4 public overview and governance notes;
-- 51 theory notes in A;
-- 43 practice notes in B;
-- 7 newly authored public review and acceptance notes in C.
+## Publication, license and contribution
 
-Public C is a reusable review framework, not a copy of the private AI-infrastructure layer or the private retrospective/validation archive. It explains status, evidence, scope control, directed return, five-gate AI-film review, independent Skill use, and public knowledge/image checks without exposing personal projects or private logs.
+All **696 source images** used by the existing public notes are now published, restoring **730 in-note placements**, alongside 10 public method SVGs. This release supersedes the old “622 candidates / 0 uploaded” hold. Teaching illustrations do not prove a film’s actual camera settings or moving-image effects; factual claims retain their source requirements.
 
-The `knowledge/` directory remains Markdown-only. Ten explanatory SVGs were created specifically for this public reading edition and live outside the knowledge corpus under `docs/assets/knowledge/`. Their purpose, embed location, authorship basis, and review status are listed in the [visual asset register](docs/VISUAL_ASSETS.md).
+Original text and registered original teaching illustrations use [CC BY 4.0](LICENSE). Cited or linked works retain their owners’ rights. See the [publication scope](PUBLICATION_SCOPE.md) and [visual register](docs/VISUAL_ASSETS.md).
 
-## Image publication boundary
-
-The private source vault contained **730 local images**. This release uploads **0 of those source-vault images**:
-
-- **622 conditional candidates** remain private while one explicit, unified redistribution authorization is still missing;
-- **86 files** lack sufficient source or rights evidence;
-- **22 files** are excluded from public use.
-
-“Conditional candidate” does not mean approved. None of the 730 may enter the public repository unless the missing authorization and per-image publication record are completed. The ten public SVGs are new, original teaching diagrams; they are not traced, copied, or transformed from the withheld source-vault images.
-
-## Built for people and Agents
-
-The canonical knowledge notes are in Simplified Chinese; repository entry pages are available in English, Simplified Chinese, Japanese, and Korean.
-
-Because the corpus is ordinary Markdown, it can be read by people, editors, static-site tools, Codex, Claude Code, TRAE, CodeBuddy, WorkBuddy, and other file-reading Agents. This is a portability claim, not a claim that every product has the same native importer. Give an Agent the exact note or folder that matches the task; it does not need the entire repository.
-
-For executable Agent workflows, see the companion [Open Film Skills](https://github.com/62656456/ai-film-skills). The two repositories are independent: one knowledge note can be read alone, and one Skill can be used alone.
-
-## Review, evidence, and return
-
-The public review route keeps four facts separate: a file exists, its content passes review, a real output works, and a designated reviewer accepts it. When a result fails, the return record identifies the failed gate, observed evidence, earliest broken decision, protected passing items, and proof required for resubmission. Start with [C · Review](knowledge/C-审核与验收层/) for the complete flow.
-
-Time-sensitive model, product, feature, price, specification, or policy claims must be rechecked against a current primary source. Corrections belong in the public errata ledger, never in a hidden personal review layer.
-
-## Repository design
-
-The interface uses a film-research notebook language: script paper, slate black, signal orange, cool cyan, and brass. The information architecture makes the three public routes visible immediately while preserving direct access to every individual note.
-
-The presentation was informed by [OmniRoute](https://github.com/diegosouzapw/OmniRoute): a strong opening thesis, immediate navigation, diagrams, multilingual entry points, visible scope, contribution routes, and explicit security and third-party boundaries. No OmniRoute brand asset, illustration, prose, or code is included.
-
-## Contributing and contact
-
-Read [CONTRIBUTING.md](CONTRIBUTING.md), [docs/CONTENT_POLICY.md](docs/CONTENT_POLICY.md), and [PUBLICATION_SCOPE.md](PUBLICATION_SCOPE.md). Run `python scripts/validate_repository.py` before proposing a change.
-
-- Ideas and discussion: [GitHub Discussions](https://github.com/62656456/ai-film-knowledge-base/discussions)
-- Reproducible corrections: [GitHub Issues](https://github.com/62656456/ai-film-knowledge-base/issues)
-- Contact: [haldissita@gmail.com](mailto:haldissita@gmail.com)
-
-## License
-
-Personally authored knowledge text and the ten registered original diagrams are licensed under [Creative Commons Attribution 4.0 International](LICENSE), unless a file states otherwise. The license does not grant rights over linked, cited, or otherwise external material.
+[Contributing](CONTRIBUTING.md) · [Issues](https://github.com/62656456/ai-film-knowledge-base/issues) · [Discussions](https://github.com/62656456/ai-film-knowledge-base/discussions) · [haldissita@gmail.com](mailto:haldissita@gmail.com)

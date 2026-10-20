@@ -30,7 +30,7 @@ The public C route must never be used to restore the private AI-infrastructure, 
 
 14. Do not add an image unless its author or source, license or explicit permission, attribution, modification history, knowledge purpose, embed location, and privacy review are documented.
 15. Current public knowledge illustrations must be original SVGs under `docs/assets/knowledge/`, registered in `docs/VISUAL_ASSETS.md`, referenced from Markdown, and embedded with the exact descriptive alternative text.
-16. Do not copy, trace, or transform any of the 730 withheld source-vault images. The 622 conditional candidates remain private until the missing unified authorization is explicit; 86 have insufficient evidence and 22 are excluded.
+16. The existing teaching-image set is public with explicit maintainer authorization. Preserve the registered source files and in-note embeds; add new images with source/creation basis, license, meaningful alt text and a record in `docs/IMAGE_MANIFEST.json`.
 17. Preserve the Simplified Chinese source note when contributing a translation.
 
 ## Validate

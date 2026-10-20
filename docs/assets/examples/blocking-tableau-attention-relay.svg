@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="820" viewBox="0 0 880 820" role="img" aria-labelledby="title desc">
+  <title id="title">场面画遮挡显露与注意力接力的六人站位图</title>
+  <desc id="desc">固定摄影机面对六名分布在前中后景的人物，以转头、让位、显露和反应四个小动作完成注意力接力。</desc>
+  <defs><style>.bg{fill:#101419}.panel{fill:#1b2229;stroke:#3f4b56;stroke-width:2}.title{fill:#f0ede5;font:700 30px 'Microsoft YaHei UI',sans-serif}.sub{fill:#aeb8c2;font:17px 'Microsoft YaHei UI',sans-serif}.h{fill:#e8e4da;font:700 22px 'Microsoft YaHei UI',sans-serif}.note{fill:#aeb8c2;font:16px 'Microsoft YaHei UI',sans-serif}.small{fill:#d7dde2;font:15px 'Microsoft YaHei UI',sans-serif}.f{fill:#77aecd}.m{fill:#75b995}.b{fill:#d96e66}.event{fill:#e7b65c}.person{stroke:#101419;stroke-width:3}.txt{fill:#101419;font:700 13px 'Microsoft YaHei UI',sans-serif;text-anchor:middle;dominant-baseline:middle}.cam{fill:#e7b65c}.cone{fill:#e7b65c;opacity:.1}.relay{stroke:#e7b65c;stroke-width:4;fill:none;marker-end:url(#a)}.micro{stroke:#75b995;stroke-width:4;fill:none;marker-end:url(#g)}.eye{stroke:#d7dde2;stroke-width:2;fill:none;stroke-dasharray:5 5}.occlude{fill:#66727e;opacity:.7}.layer{fill:#252d35;stroke:#4c5964;stroke-width:2}.num{fill:#101419;font:700 14px 'Microsoft YaHei UI',sans-serif;text-anchor:middle;dominant-baseline:middle}</style><marker id="a" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0 0L9 3L0 6Z" fill="#e7b65c"/></marker><marker id="g" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0 0L9 3L0 6Z" fill="#75b995"/></marker></defs>
+  <rect class="bg" width="880" height="820"/><text class="title" x="50" y="55">遮挡—显露 + 微小注意力转移｜6人执行模板</text><text class="sub" x="50" y="88">摄影机固定，靠人物的转头、让位和短距离移动，把观众注意力从前景接到背景。</text>
+  <g transform="translate(45 125)"><rect class="panel" width="820" height="610" rx="16"/><text class="h" x="28" y="42">A｜俯视空间图：前景2 / 中景2 / 后景2</text>
+    <rect x="40" y="70" width="740" height="455" rx="10" fill="#151b20" stroke="#55616c" stroke-width="3"/>
+    <path class="cone" d="M410 500L110 110H710Z"/><rect class="cam" x="382" y="485" width="56" height="32" rx="4"/><text class="small" x="450" y="510">固定机位</text>
+    <line x1="85" y1="370" x2="735" y2="370" stroke="#4c5964" stroke-width="2" stroke-dasharray="7 6"/><text class="small" x="90" y="392">前景</text>
+    <line x1="85" y1="250" x2="735" y2="250" stroke="#4c5964" stroke-width="2" stroke-dasharray="7 6"/><text class="small" x="90" y="272">中景</text>
+    <text class="small" x="90" y="132">后景</text>
+    <circle class="f person" cx="285" cy="420" r="31"/><text class="txt" x="285" y="420">F1</text><circle class="f person" cx="535" cy="420" r="29"/><text class="txt" x="535" y="420">F2</text>
+    <circle class="m person" cx="345" cy="305" r="25"/><text class="txt" x="345" y="305">M1</text><circle class="m person" cx="495" cy="300" r="24"/><text class="txt" x="495" y="300">M2</text>
+    <circle class="b person" cx="370" cy="175" r="21"/><text class="txt" x="370" y="175">B1</text><circle class="b person" cx="515" cy="165" r="20"/><text class="txt" x="515" y="165">B2</text>
+    <rect class="occlude" x="445" y="260" width="28" height="105" rx="8"/><text class="small" x="485" y="275">柱</text>
+    <path class="relay" d="M285 388Q310 350 345 330"/><circle class="event" cx="300" cy="355" r="14"/><text class="num" x="300" y="355">1</text>
+    <path class="micro" d="M365 305H420"/><circle class="event" cx="398" cy="286" r="14"/><text class="num" x="398" y="286">2</text>
+    <path class="relay" d="M495 275Q505 220 515 190"/><circle class="event" cx="505" cy="232" r="14"/><text class="num" x="505" y="232">3</text>
+    <path class="relay" d="M492 165H410"/><circle class="event" cx="450" cy="145" r="14"/><text class="num" x="450" y="145">4</text>
+    <text class="note" x="40" y="565">顺序：①F1转头 → ②M1让半步 → ③B2从柱后显露 → ④B1做反应。每次只改变一个信息焦点。</text>
+  </g>
+  <g transform="translate(895 125)"><rect class="panel" width="460" height="610" rx="16"/><text class="h" x="28" y="42">B｜固定画面中的四拍</text>
+    <rect class="layer" x="35" y="82" width="390" height="95" rx="10"/><circle class="event" cx="72" cy="129" r="17"/><text class="num" x="72" y="129">1</text><text class="small" x="105" y="120">前景F1转头</text><text class="note" x="105" y="146">观众先意识到画外有变化</text>
+    <rect class="layer" x="35" y="194" width="390" height="95" rx="10"/><circle class="event" cx="72" cy="241" r="17"/><text class="num" x="72" y="241">2</text><text class="small" x="105" y="232">中景M1让半步</text><text class="note" x="105" y="258">移除遮挡，不抢走动作重心</text>
+    <rect class="layer" x="35" y="306" width="390" height="95" rx="10"/><circle class="event" cx="72" cy="353" r="17"/><text class="num" x="72" y="353">3</text><text class="small" x="105" y="344">后景B2被显露</text><text class="note" x="105" y="370">新信息出现，仍不切近景</text>
+    <rect class="layer" x="35" y="418" width="390" height="95" rx="10"/><circle class="event" cx="72" cy="465" r="17"/><text class="num" x="72" y="465">4</text><text class="small" x="105" y="456">B1停手并回看</text><text class="note" x="105" y="482">关系变化由反应完成</text>
+    <text class="note" x="35" y="551">持续动作：F2整理物件、M2侧身让路；它们维持生活感，但不另开信息焦点。</text><text class="note" x="35" y="588">失败判定：所有人同时动，或显露的人物没有重要信息。</text>
+  </g><text class="sub" x="50" y="785">“固定机位”不等于“全员静止”；背景可持续运转，但注意力接力必须一次只推进一层。</text>
+</svg>

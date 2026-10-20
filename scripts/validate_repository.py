@@ -4,6 +4,8 @@
 from __future__ import annotations
 
 import re
+import json
+import hashlib
 import subprocess
 import sys
 from pathlib import Path
@@ -14,6 +16,8 @@ ROOT = Path(__file__).resolve().parents[1]
 KNOWLEDGE = ROOT / "knowledge"
 VISUAL_DIR = ROOT / "docs" / "assets" / "knowledge"
 VISUAL_REGISTER = ROOT / "docs" / "VISUAL_ASSETS.md"
+SOURCE_VISUAL_DIR = ROOT / "docs" / "assets" / "examples"
+IMAGE_MANIFEST = ROOT / "docs" / "IMAGE_MANIFEST.json"
 
 EXPECTED_LAYERS = {
     "00-总纲",
@@ -74,42 +78,37 @@ EXPECTED_VISUAL_ALTS = {
 REQUIRED_DOCUMENT_TEXT = {
     "README.md": (
         "105 authored Markdown notes",
-        "622 conditional candidates",
-        "86 files",
-        "22 files",
+        "696 source images",
+        "730 in-note placements",
         "knowledge/C-审核与验收层/",
         "docs/VISUAL_ASSETS.md",
+        "docs/IMAGE_GALLERY.md",
     ),
     "docs/i18n/zh-CN/README.md": (
         "105 篇 Markdown",
-        "622 张条件候选",
-        "86 张",
-        "22 张",
+        "696 张源图全部公开",
+        "730 处正文引用",
     ),
     "docs/i18n/ja/README.md": (
         "105件のMarkdown",
-        "622点",
-        "86点",
-        "22点",
+        "696点",
+        "730か所",
     ),
     "docs/i18n/ko/README.md": (
         "105개의 Markdown",
-        "622개",
-        "86개",
-        "22개",
+        "696개",
+        "730곳",
     ),
     "PUBLICATION_SCOPE.md": (
         "105 personally authored Markdown notes",
-        "Conditional candidates",
-        "| 622 |",
-        "| 86 |",
-        "| 22 |",
-        "| 0 |",
+        "696 original source teaching images",
+        "730 placements",
+        "2026-10-20",
     ),
     "llms.txt": (
         "Public corpus: 105 Markdown notes.",
         "knowledge/C-审核与验收层/",
-        "622 remain private conditional candidates",
+        "696 source teaching images are published",
     ),
 }
 
@@ -279,7 +278,7 @@ def main() -> int:
             continue
         text = path.read_text(encoding="utf-8-sig", errors="replace")
         for required in required_strings:
-            if required not in text:
+            if required not in unquote(text):
                 errors.append(f"{relative}: missing required public fact: {required}")
 
     actual_visual_files = (
@@ -342,6 +341,46 @@ def main() -> int:
         if PRIVATE_WINDOWS_PATH.search(text) or SESSION_UUID.search(text):
             errors.append(f"private metadata in SVG: {path.relative_to(ROOT)}")
 
+    # Registered source images are first-class knowledge illustrations. Validate
+    # their real files and links instead of requiring the former no-image hold.
+    source_records = {}
+    source_knowledge_references = {}
+    try:
+        manifest = json.loads(IMAGE_MANIFEST.read_text(encoding="utf-8"))
+        records = manifest["images"]
+        if len(records) != manifest["image_count"] or len(records) != 696:
+            errors.append("source image manifest count must be 696")
+        if manifest.get("knowledge_embed_count") != 730:
+            errors.append("source image manifest must record 730 knowledge placements")
+        for record in records:
+            relative = record["file"]
+            path = (ROOT / relative).resolve()
+            if not is_under(path, SOURCE_VISUAL_DIR):
+                errors.append(f"source image escapes its directory: {relative}")
+                continue
+            if relative in source_records:
+                errors.append(f"duplicate source image record: {relative}")
+            source_records[relative] = record
+            source_knowledge_references[relative] = []
+            for field in ("alt", "author", "license", "publication_authorized", "modifications", "knowledge_embeds"):
+                if not record.get(field):
+                    errors.append(f"source image record missing {field}: {relative}")
+            if not path.is_file():
+                errors.append(f"registered source image missing: {relative}")
+                continue
+            data = path.read_bytes()
+            if len(data) != record["bytes"] or hashlib.sha256(data).hexdigest() != record["sha256"]:
+                errors.append(f"source image bytes or hash mismatch: {relative}")
+            if path.suffix.lower() == ".svg":
+                svg = data.decode("utf-8-sig")
+                if UNSAFE_SVG.search(svg) or PRIVATE_WINDOWS_PATH.search(svg) or SESSION_UUID.search(svg):
+                    errors.append(f"unsafe or private source SVG: {relative}")
+        actual_source_files = {p.relative_to(ROOT).as_posix() for p in SOURCE_VISUAL_DIR.rglob("*") if p.is_file()}
+        if actual_source_files != set(source_records):
+            errors.append("source image directory and manifest differ")
+    except (OSError, ValueError, KeyError, TypeError) as exc:
+        errors.append(f"invalid source image manifest: {exc}")
+
     visual_references = {name: 0 for name in registered_alts}
     local_links_checked = 0
     local_images_checked = 0
@@ -350,7 +389,7 @@ def main() -> int:
     legacy_notice_files: set[str] = set()
 
     markdown_public = public_markdown_files()
-    sensitive_public_files = markdown_public + [ROOT / "llms.txt"]
+    sensitive_public_files = markdown_public + [ROOT / "llms.txt", IMAGE_MANIFEST]
 
     for path in sensitive_public_files:
         if not path.is_file():
@@ -465,11 +504,25 @@ def main() -> int:
                         f"incorrect alt for {name} in {relative}: "
                         f"expected {expected_alt!r}, found {alt!r}"
                     )
+            elif is_under(resolved, SOURCE_VISUAL_DIR):
+                image_key = resolved.relative_to(ROOT.resolve()).as_posix()
+                if image_key not in source_records:
+                    errors.append(f"unregistered source image in {relative}: {raw_target}")
+                elif is_under(path, KNOWLEDGE):
+                    source_knowledge_references[image_key].append(relative.as_posix())
             elif is_under(path, KNOWLEDGE):
                 errors.append(
                     f"knowledge image is outside registered visual directory: "
                     f"{relative}: {raw_target}"
                 )
+
+    source_embed_count = sum(len(v) for v in source_knowledge_references.values())
+    if source_embed_count != 730:
+        errors.append(f"expected 730 restored knowledge placements, found {source_embed_count}")
+    for key, record in source_records.items():
+        actual = set(source_knowledge_references[key])
+        if actual != set(record["knowledge_embeds"]):
+            errors.append(f"source image knowledge locations differ from manifest: {key}")
 
     if wikilink_locations:
         sample = "; ".join(wikilink_locations[:5])
@@ -505,6 +558,8 @@ def main() -> int:
         f"{sum(1 for count in visual_references.values() if count > 0)}"
     )
     print(f"Local image embeds checked: {local_images_checked}")
+    print(f"Registered source images and hashes checked: {len(source_records)}")
+    print(f"Restored source-image placements in knowledge: {source_embed_count}")
     print(f"Local Markdown links checked: {local_links_checked}")
     print(f"Legacy image placeholders: {legacy_notice_count}")
     print(f"Obsidian wikilink files: {len(wikilink_locations)}")

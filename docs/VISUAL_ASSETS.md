@@ -1,8 +1,12 @@
 # Visual asset register
 
-Every image listed here was created specifically for this public repository as an explanatory SVG. No film still, private-project asset, local screenshot, third-party illustration, or source-vault image was copied, traced, or transformed into these files.
+The public library contains **696 original source teaching images** and **10 original public-method SVGs**. Publication of the existing knowledge illustrations was expressly authorized by the repository maintainer on 2026-10-20. The 696 files are byte-for-byte copies, with 730 placements restored in 41 knowledge notes.
 
-The repository's CC BY 4.0 license covers these original diagrams. Their text summarizes the linked public knowledge note; it does not reproduce an external image. This table is the machine-checked allowlist for knowledge illustrations in v1.1.0.
+[Browse every image](IMAGE_GALLERY.md) · [Per-image records](IMAGE_MANIFEST.json)
+
+The JSON register records the file, author/creation basis, educational purpose through linked notes, exact baseline alternative text, unchanged-file status, license, dimensions, SHA-256 and knowledge locations. These teaching illustrations are not frames from the referenced films. Names identify study subjects rather than official endorsements.
+
+## Ten public method diagrams
 
 | File | Exact alternative text | Knowledge purpose | Embedded in | Author / rights basis | Review status |
 |---|---|---|---|---|---|
@@ -17,10 +21,7 @@ The repository's CC BY 4.0 license covers these original diagrams. Their text su
 | `docs/assets/knowledge/five-gate-film-check.svg` | `AI影视成品的故事、连续性、视觉、时间声音与交付五门验收` | Summarize the five applicable AI-film review gates | `C1-04 AI影视成品五门验收` | Repository maintainer; original vector diagram | Ready for v1.1.0 |
 | `docs/assets/knowledge/public-image-gate.svg` | `公开图片从作者、隐私、用途、登记到发布的五项过闸流程` | Explain author, privacy, purpose, manifest, and publication checks | `C1-06 知识与图片公开过闸` | Repository maintainer; original vector diagram | Ready for v1.1.0 |
 
-## Source-vault image audit
 
-The private source vault contained 730 local images. This register includes none of them: 622 conditional candidates remain private pending one explicit, unified redistribution authorization; 86 lack sufficient provenance or rights evidence; and 22 are excluded. “Conditional candidate” is not permission.
+## Counting and permission
 
-## Inclusion rule
-
-An image may enter the public repository only when its author or license, knowledge purpose, modification history, embed location, privacy review, and exact alternative text are known. The file must be registered here and referenced from public Markdown. Unknown source-vault images remain excluded. See [`C1-06 知识与图片公开过闸`](../knowledge/C-审核与验收层/C1-06%20知识与图片公开过闸.md).
+The old 730-file / 622-candidate classification was not a current file inventory. This release resolves the actual public-note image references: **696 unique image files and 730 placements**. No missing file was found in this set. The source files remain unchanged. The maintainer authorization resolves the previous publication hold; it does not certify every depicted technique, confer rights to linked film footage, or represent user aesthetic acceptance.
